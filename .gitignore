@@ -1,0 +1,9 @@
+node_modules
+.next
+out
+dev-server.out
+dev-server.err
+dev-server.*.log
+.env
+.env.local
+*.pdf
