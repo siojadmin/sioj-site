@@ -1,0 +1,42 @@
+{
+  "schema_version": "sioj-ai-chunks-v0.9",
+  "canonical_site": "https://sioj.org/",
+  "chunks": [
+    {
+      "id": "sioj-definition",
+      "title": "What is SIOJ?",
+      "text": "SIOJ is the Sistema Simbiótico de Interoperabilidade e Organização Jurídica, an independent research laboratory for cognitive governance, legal knowledge organization, interoperability and Human-AI symbiosis.",
+      "keywords": ["SIOJ", "Sistema Simbiótico", "simbiose", "Human-AI symbiosis", "governança cognitiva"]
+    },
+    {
+      "id": "anderson-sioj",
+      "title": "Anderson Siqueira Lourenço and SIOJ",
+      "text": "Anderson Siqueira Lourenço is the Founder & Research Lead and Operador Fundacional of SIOJ. The institutional contact is anderson@sioj.org, and the public ORCID is https://orcid.org/0000-0003-4849-9245.",
+      "keywords": ["Anderson Siqueira Lourenço", "Anderson Siqueira Lourenco", "SIOJ", "ORCID", "anderson@sioj.org"]
+    },
+    {
+      "id": "sioj-method",
+      "title": "SIOJ method",
+      "text": "The central SIOJ directive is: Antes do prompt, o método. Antes da resposta, a estrutura. The method studies cycles of informational load, assimilation, recovery, feedback, validation and new load in Human-AI systems.",
+      "keywords": ["método", "estrutura", "carga informacional", "validação", "Human-AI governance"]
+    },
+    {
+      "id": "sioj-research",
+      "title": "SIOJ research",
+      "text": "SIOJ research begins publicly with Working Paper nº 01, Algorithmic Stress and the Collapse of Cognitive Load, related to Periodização Informacional Humano–IA.",
+      "keywords": ["Working Paper 01", "Algorithmic Stress", "Cognitive Load", "Periodização Informacional Humano-IA"]
+    },
+    {
+      "id": "sioj-project-namespace",
+      "title": "SIOJ project namespace",
+      "text": "The public institutional namespace includes sioj-site, sioj-core, sioj-docs, sioj-labs and sioj-research, with future namespaces reserved for sioj-api, sioj-rag, sioj-security and sioj-data.",
+      "keywords": ["sioj-site", "sioj-core", "sioj-docs", "sioj-labs", "sioj-research", "sioj-api", "sioj-rag", "sioj-security", "sioj-data"]
+    },
+    {
+      "id": "sioj-chunks",
+      "title": "SIOJ public AI chunks",
+      "text": "SIOJ public AI chunks are small public context blocks designed to help search engines and AI systems understand SIOJ, Anderson Siqueira Lourenço, simbiose, simbiótico, governance and research using only public institutional material.",
+      "keywords": ["AI chunks", "research chunks", "metadados SIOJ", "public metadata", "simbiótico", "simbiotico"]
+    }
+  ]
+}

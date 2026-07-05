@@ -1,0 +1,110 @@
+{
+  "schema_version": "sioj-public-metadata-v0.9",
+  "canonical_site": "https://sioj.org/",
+  "canonical_name": "SIOJ",
+  "full_name": "Sistema Simbiótico de Interoperabilidade e Organização Jurídica",
+  "ascii_name": "Sistema Simbiotico de Interoperabilidade e Organizacao Juridica",
+  "institutional_positioning": "Independent research laboratory for cognitive governance, legal knowledge organization, interoperability and Human-AI symbiosis.",
+  "foundational_tagline": "Antes do prompt, o método. Antes da resposta, a estrutura.",
+  "founder": {
+    "name": "Anderson Siqueira Lourenço",
+    "role": "Founder & Research Lead",
+    "institutional_role": "Operador Fundacional — SIOJ",
+    "email": "anderson@sioj.org",
+    "orcid": "https://orcid.org/0000-0003-4849-9245"
+  },
+  "public_links": {
+    "site": "https://sioj.org/",
+    "method": "https://sioj.org/manifesto",
+    "research": "https://sioj.org/research",
+    "contact": "https://sioj.org/contact",
+    "github": "https://github.com/siojadmin/sioj-site",
+    "patreon": "https://www.patreon.com/siojintegratesystemoflegalorganization/posts/sioj-labs-paper-162826221"
+  },
+  "project_namespace": [
+    {
+      "name": "sioj-site",
+      "status": "public",
+      "description": "Public institutional website and discovery surface for sioj.org."
+    },
+    {
+      "name": "sioj-core",
+      "status": "reserved namespace",
+      "description": "Institutional namespace for core method and architecture."
+    },
+    {
+      "name": "sioj-docs",
+      "status": "reserved namespace",
+      "description": "Institutional namespace for public documentation."
+    },
+    {
+      "name": "sioj-labs",
+      "status": "reserved namespace",
+      "description": "Institutional namespace for public research tracking."
+    },
+    {
+      "name": "sioj-research",
+      "status": "reserved namespace",
+      "description": "Institutional namespace for working papers and research outputs."
+    },
+    {
+      "name": "sioj-api",
+      "status": "future namespace",
+      "description": "Future institutional namespace for API surfaces."
+    },
+    {
+      "name": "sioj-rag",
+      "status": "future namespace",
+      "description": "Future institutional namespace for retrieval architecture."
+    },
+    {
+      "name": "sioj-security",
+      "status": "future namespace",
+      "description": "Future institutional namespace for security and validation."
+    },
+    {
+      "name": "sioj-data",
+      "status": "future namespace",
+      "description": "Future institutional namespace for data structures."
+    }
+  ],
+  "aliases": [
+    "SIOJ",
+    "sioj.org",
+    "SIOJ Labs",
+    "Sistema Simbiótico de Interoperabilidade e Organização Jurídica",
+    "Sistema Simbiotico de Interoperabilidade e Organizacao Juridica",
+    "Anderson Siqueira Lourenço SIOJ",
+    "Anderson Siqueira Lourenco SIOJ"
+  ],
+  "topics": [
+    "simbiose",
+    "simbiótico",
+    "simbiotico",
+    "Human-AI symbiosis",
+    "Human–AI Symbiosis",
+    "simbiose Humano-IA",
+    "governança cognitiva",
+    "governanca cognitiva",
+    "Human-AI governance",
+    "legal knowledge organization",
+    "interoperabilidade jurídica",
+    "interoperabilidade juridica",
+    "algorithmic stress",
+    "cognitive load",
+    "Periodização Informacional Humano-IA",
+    "Periodizacao Informacional Humano IA",
+    "AI chunks",
+    "research chunks",
+    "public metadata"
+  ],
+  "working_papers": [
+    {
+      "number": "01",
+      "title": "Algorithmic Stress and the Collapse of Cognitive Load",
+      "related_title": "Periodização Informacional Humano–IA",
+      "url": "https://sioj.org/research",
+      "public_tracking": "https://www.patreon.com/siojintegratesystemoflegalorganization/posts/sioj-labs-paper-162826221"
+    }
+  ]
+}

@@ -35,12 +35,54 @@ External public references:
 Core topics:
 - SIOJ
 - Anderson Siqueira Lourenço
+- Sistema Simbiótico de Interoperabilidade e Organização Jurídica
+- Sistema Simbiotico de Interoperabilidade e Organizacao Juridica
+- SIOJ Labs
+- siojadmin
+- sioj-site
+- sioj-core
+- sioj-docs
+- sioj-labs
+- sioj-research
+- sioj-api
+- sioj-rag
+- sioj-security
+- sioj-data
+- simbiose
+- simbiótico
+- simbiotico
+- Human–AI Symbiosis
+- Human-AI Symbiosis
+- simbiose Humano-IA
 - cognitive governance
+- governança cognitiva
+- governanca cognitiva
 - Human-AI governance
 - Human-AI symbiosis
 - legal knowledge organization
 - legal interoperability
+- interoperabilidade jurídica
+- interoperabilidade juridica
 - information governance
 - algorithmic stress
 - cognitive load
 - Periodização Informacional Humano-IA
+- Periodizacao Informacional Humano IA
+- AI chunks
+- research chunks
+- public metadata
+
+Public project namespace:
+- sioj-site: public institutional website and discovery surface for sioj.org.
+- sioj-core: institutional namespace reserved for core method and architecture.
+- sioj-docs: institutional namespace reserved for public documentation.
+- sioj-labs: institutional namespace for public research tracking.
+- sioj-research: institutional namespace for working papers and research outputs.
+- sioj-api: future institutional namespace for API surfaces.
+- sioj-rag: future institutional namespace for retrieval architecture.
+- sioj-security: future institutional namespace for security and validation.
+- sioj-data: future institutional namespace for data structures.
+
+AI-readable chunks:
+- https://sioj.org/ai-chunks.json
+- https://sioj.org/sioj-metadata.json

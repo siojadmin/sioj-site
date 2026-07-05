@@ -3,4 +3,6 @@ Allow: /
 
 Sitemap: https://sioj.org/sitemap.xml
 LLMs: https://sioj.org/llms.txt
+Metadata: https://sioj.org/sioj-metadata.json
+AI-Chunks: https://sioj.org/ai-chunks.json
 Host: https://sioj.org
