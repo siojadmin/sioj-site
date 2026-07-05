@@ -21,6 +21,12 @@ Public method:
 Contact:
 - https://sioj.org/contact
 
+Discovery files:
+- https://sioj.org/sitemap.xml
+- https://sioj.org/robots.txt
+- https://sioj.org/humans.txt
+- https://sioj.org/opensearch.xml
+
 External public references:
 - ORCID: https://orcid.org/0000-0003-4849-9245
 - GitHub: https://github.com/siojadmin/sioj-site

@@ -8,6 +8,13 @@ const description =
 
 const siteUrl = "https://sioj.org";
 
+const externalLinks = {
+  orcid: "https://orcid.org/0000-0003-4849-9245",
+  github: "https://github.com/siojadmin/sioj-site",
+  patreon:
+    "https://www.patreon.com/siojintegratesystemoflegalorganization/posts/sioj-labs-paper-162826221?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+};
+
 export const metadata: Metadata = {
   applicationName: "SIOJ",
   title,
@@ -33,6 +40,23 @@ export const metadata: Metadata = {
   creator: "Anderson Siqueira Lourenço",
   publisher: "SIOJ",
   category: "Research",
+  generator: "Next.js",
+  referrer: "origin-when-cross-origin",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  classification:
+    "Independent research laboratory; cognitive governance; legal knowledge organization; Human-AI symbiosis",
+  archives: [`${siteUrl}/research`],
+  assets: [`${siteUrl}/llms.txt`, `${siteUrl}/sitemap.xml`],
+  bookmarks: [`${siteUrl}/research`, `${siteUrl}/manifesto`, `${siteUrl}/contact`],
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+    apple: "/icon.svg",
+  },
   robots: {
     index: true,
     follow: true,
@@ -51,11 +75,39 @@ export const metadata: Metadata = {
     siteName: "SIOJ",
     type: "website",
     locale: "pt_BR",
+    countryName: "Brazil",
+    emails: ["anderson@sioj.org"],
   },
   twitter: {
     card: "summary",
     title,
     description,
+  },
+  appleWebApp: {
+    title: "SIOJ",
+    capable: true,
+    statusBarStyle: "black-translucent",
+  },
+  manifest: "/manifest.webmanifest",
+  other: {
+    "dc.title": title,
+    "dc.creator": "Anderson Siqueira Lourenço",
+    "dc.publisher": "SIOJ",
+    "dc.description": description,
+    "dc.language": "pt-BR",
+    "dc.subject":
+      "SIOJ; Anderson Siqueira Lourenço; cognitive governance; legal knowledge organization; Human-AI symbiosis",
+    "citation_title": "Algorithmic Stress and the Collapse of Cognitive Load",
+    "citation_author": "Anderson Siqueira Lourenço",
+    "citation_publication_date": "2026/07/05",
+    "citation_online_date": "2026/07/05",
+    "citation_language": "pt-BR",
+    "citation_abstract_html_url": `${siteUrl}/research`,
+    "og:see_also": externalLinks.orcid,
+    "application-name": "SIOJ",
+    "msapplication-TileColor": "#080a0c",
+    "msapplication-config": "none",
+    "search": `${siteUrl}/opensearch.xml`,
   },
 };
 
@@ -65,13 +117,6 @@ const links = [
   { href: "/research", label: "Research" },
   { href: "/contact", label: "Contact" },
 ];
-
-const externalLinks = {
-  orcid: "https://orcid.org/0000-0003-4849-9245",
-  github: "https://github.com/siojadmin/sioj-site",
-  patreon:
-    "https://www.patreon.com/siojintegratesystemoflegalorganization/posts/sioj-labs-paper-162826221?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
-};
 
 const structuredData = {
   "@context": "https://schema.org",
@@ -91,6 +136,13 @@ const structuredData = {
         "@id": `${siteUrl}/#anderson-siqueira-lourenco`,
       },
       sameAs: [externalLinks.github, externalLinks.patreon],
+      contactPoint: {
+        "@type": "ContactPoint",
+        email: "anderson@sioj.org",
+        contactType: "research contact",
+        areaServed: "BR",
+        availableLanguage: ["pt-BR", "en"],
+      },
       knowsAbout: [
         "Cognitive governance",
         "Human-AI governance",
@@ -130,6 +182,11 @@ const structuredData = {
       about: {
         "@id": `${siteUrl}/#organization`,
       },
+      potentialAction: {
+        "@type": "SearchAction",
+        target: `${siteUrl}/?q={search_term_string}`,
+        "query-input": "required name=search_term_string",
+      },
     },
     {
       "@type": "ScholarlyArticle",
@@ -152,6 +209,43 @@ const structuredData = {
         "Cognitive load",
         "Human-AI governance",
         "Periodização Informacional Humano-IA",
+      ],
+      keywords: [
+        "SIOJ",
+        "Algorithmic stress",
+        "Cognitive load",
+        "Human-AI governance",
+        "Periodização Informacional Humano-IA",
+      ],
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": `${siteUrl}/#breadcrumbs`,
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: siteUrl,
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Method",
+          item: `${siteUrl}/manifesto`,
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "Research",
+          item: `${siteUrl}/research`,
+        },
+        {
+          "@type": "ListItem",
+          position: 4,
+          name: "Contact",
+          item: `${siteUrl}/contact`,
+        },
       ],
     },
   ],

@@ -1,0 +1,14 @@
+{
+  "name": "SIOJ — Sistema Simbiótico de Interoperabilidade e Organização Jurídica",
+  "short_name": "SIOJ",
+  "description": "Independent research laboratory for cognitive governance, legal knowledge organization and Human-AI symbiosis.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#080a0c",
+  "theme_color": "#080a0c",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "categories": ["education", "research", "productivity"],
+  "id": "https://sioj.org/"
+}

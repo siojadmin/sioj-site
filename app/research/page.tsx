@@ -4,8 +4,22 @@ export const metadata: Metadata = {
   title: "Research — SIOJ Working Paper 01",
   description:
     "Research page for SIOJ Working Paper 01: Algorithmic Stress, cognitive load and Periodização Informacional Humano-IA.",
+  keywords: [
+    "SIOJ Research",
+    "Working Paper 01",
+    "Algorithmic Stress and the Collapse of Cognitive Load",
+    "Periodização Informacional Humano-IA",
+    "Anderson Siqueira Lourenço",
+  ],
   alternates: {
     canonical: "/research",
+  },
+  openGraph: {
+    title: "Research — SIOJ Working Paper 01",
+    description:
+      "Algorithmic Stress, cognitive load and Periodização Informacional Humano-IA.",
+    url: "https://sioj.org/research",
+    type: "article",
   },
 };
 

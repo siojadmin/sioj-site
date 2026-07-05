@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="SIOJ">
+  <rect width="512" height="512" fill="#080a0c"/>
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#b7d1c5" stroke-width="20"/>
+  <text x="256" y="286" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="132" font-weight="700" fill="#f1f3f0">SIOJ</text>
+</svg>

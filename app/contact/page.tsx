@@ -4,8 +4,20 @@ export const metadata: Metadata = {
   title: "Contact — Anderson Siqueira Lourenço and SIOJ",
   description:
     "Direct institutional contact for Anderson Siqueira Lourenço, Operador Fundacional do SIOJ.",
+  keywords: [
+    "Anderson Siqueira Lourenço",
+    "SIOJ contact",
+    "anderson@sioj.org",
+    "ORCID Anderson Siqueira Lourenço",
+  ],
   alternates: {
     canonical: "/contact",
+  },
+  openGraph: {
+    title: "Contact — Anderson Siqueira Lourenço and SIOJ",
+    description: "Direct institutional and scientific contact for SIOJ.",
+    url: "https://sioj.org/contact",
+    type: "profile",
   },
 };
 

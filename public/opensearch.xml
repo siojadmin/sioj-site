@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>SIOJ</ShortName>
+  <Description>SIOJ — Anderson Siqueira Lourenço, governança cognitiva, interoperabilidade jurídica e simbiose Humano-IA.</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/svg+xml">https://sioj.org/icon.svg</Image>
+  <Url type="text/html" template="https://sioj.org/?q={searchTerms}" />
+</OpenSearchDescription>

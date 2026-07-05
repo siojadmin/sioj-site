@@ -4,8 +4,22 @@ export const metadata: Metadata = {
   title: "Method — SIOJ",
   description:
     "Institutional method and manifesto of SIOJ: cognitive governance before automation and structure before response.",
+  keywords: [
+    "SIOJ Method",
+    "governança cognitiva",
+    "governance before automation",
+    "structure before response",
+    "Human-AI governance",
+  ],
   alternates: {
     canonical: "/manifesto",
+  },
+  openGraph: {
+    title: "Method — SIOJ",
+    description:
+      "Cognitive governance before automation and structure before response.",
+    url: "https://sioj.org/manifesto",
+    type: "article",
   },
 };
 
