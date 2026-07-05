@@ -4,32 +4,167 @@ import "./globals.css";
 
 const title = "SIOJ — Sistema Simbiótico de Interoperabilidade e Organização Jurídica";
 const description =
-  "Independent research laboratory for legal knowledge organization, information governance and human-AI symbiosis.";
+  "SIOJ is an independent research laboratory founded by Anderson Siqueira Lourenço for cognitive governance, legal knowledge organization, interoperability and Human-AI symbiosis.";
+
+const siteUrl = "https://sioj.org";
 
 export const metadata: Metadata = {
+  applicationName: "SIOJ",
   title,
   description,
-  metadataBase: new URL("https://sioj.org"),
+  metadataBase: new URL(siteUrl),
+  alternates: {
+    canonical: "/",
+  },
+  keywords: [
+    "SIOJ",
+    "Anderson Siqueira Lourenço",
+    "Sistema Simbiótico de Interoperabilidade e Organização Jurídica",
+    "SIOJ Labs",
+    "governança cognitiva",
+    "Human-AI symbiosis",
+    "Human-AI governance",
+    "legal knowledge organization",
+    "interoperabilidade jurídica",
+    "Periodização Informacional Humano-IA",
+    "Algorithmic Stress and the Collapse of Cognitive Load",
+  ],
+  authors: [{ name: "Anderson Siqueira Lourenço", url: "https://orcid.org/0000-0003-4849-9245" }],
+  creator: "Anderson Siqueira Lourenço",
+  publisher: "SIOJ",
+  category: "Research",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
   openGraph: {
     title,
     description,
-    url: "https://sioj.org",
+    url: siteUrl,
     siteName: "SIOJ",
     type: "website",
+    locale: "pt_BR",
+  },
+  twitter: {
+    card: "summary",
+    title,
+    description,
   },
 };
 
 const links = [
   { href: "/", label: "Home" },
-  { href: "/manifesto", label: "Manifesto" },
+  { href: "/manifesto", label: "Method" },
   { href: "/research", label: "Research" },
   { href: "/contact", label: "Contact" },
 ];
+
+const externalLinks = {
+  orcid: "https://orcid.org/0000-0003-4849-9245",
+  github: "https://github.com/siojadmin/sioj-site",
+  patreon:
+    "https://www.patreon.com/siojintegratesystemoflegalorganization/posts/sioj-labs-paper-162826221?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+};
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ResearchOrganization",
+      "@id": `${siteUrl}/#organization`,
+      name: "SIOJ",
+      alternateName: [
+        "Sistema Simbiótico de Interoperabilidade e Organização Jurídica",
+        "SIOJ Labs",
+      ],
+      url: siteUrl,
+      description,
+      foundingDate: "2026",
+      founder: {
+        "@id": `${siteUrl}/#anderson-siqueira-lourenco`,
+      },
+      sameAs: [externalLinks.github, externalLinks.patreon],
+      knowsAbout: [
+        "Cognitive governance",
+        "Human-AI governance",
+        "Human-AI symbiosis",
+        "Legal knowledge organization",
+        "Legal interoperability",
+        "Information governance",
+        "Algorithmic stress",
+        "Cognitive load",
+        "Periodização Informacional Humano-IA",
+      ],
+    },
+    {
+      "@type": "Person",
+      "@id": `${siteUrl}/#anderson-siqueira-lourenco`,
+      name: "Anderson Siqueira Lourenço",
+      honorificPrefix: "Dr.",
+      jobTitle: ["Founder & Research Lead", "Operador Fundacional — SIOJ"],
+      url: `${siteUrl}/contact`,
+      email: "anderson@sioj.org",
+      sameAs: [externalLinks.orcid, externalLinks.github, externalLinks.patreon],
+      affiliation: {
+        "@id": `${siteUrl}/#organization`,
+      },
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${siteUrl}/#website`,
+      url: siteUrl,
+      name: "SIOJ",
+      alternateName: "sioj.org",
+      description,
+      inLanguage: ["pt-BR", "en"],
+      publisher: {
+        "@id": `${siteUrl}/#organization`,
+      },
+      about: {
+        "@id": `${siteUrl}/#organization`,
+      },
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": `${siteUrl}/research#working-paper-01`,
+      headline: "Algorithmic Stress and the Collapse of Cognitive Load",
+      alternativeHeadline: "Periodização Informacional Humano–IA",
+      name: "Working Paper nº 01",
+      author: {
+        "@id": `${siteUrl}/#anderson-siqueira-lourenco`,
+      },
+      publisher: {
+        "@id": `${siteUrl}/#organization`,
+      },
+      url: `${siteUrl}/research`,
+      isPartOf: {
+        "@id": `${siteUrl}/#website`,
+      },
+      about: [
+        "Algorithmic stress",
+        "Cognitive load",
+        "Human-AI governance",
+        "Periodização Informacional Humano-IA",
+      ],
+    },
+  ],
+};
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="pt-BR">
       <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
         <div className="page-shell">
           <header className="border-b border-[var(--line)] bg-[rgba(8,10,12,0.82)]">
             <div className="container flex min-h-20 flex-col justify-center gap-4 py-5 md:flex-row md:items-center md:justify-between">
@@ -72,15 +207,29 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                 <p>Attorney at Law — OAB/DF 39.544</p>
                 <div className="mt-6 flex flex-wrap gap-4">
                   <a
-                    href="https://orcid.org/0000-0003-4849-9245"
+                    href={externalLinks.orcid}
                     className="text-link"
                     rel="noreferrer"
                     target="_blank"
                   >
                     ORCID
                   </a>
-                  <span className="text-[var(--quiet)]">GitHub</span>
-                  <span className="text-[var(--quiet)]">Patreon</span>
+                  <a
+                    href={externalLinks.github}
+                    className="text-link"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    GitHub
+                  </a>
+                  <a
+                    href={externalLinks.patreon}
+                    className="text-link"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    Patreon
+                  </a>
                   <Link href="/contact" className="text-link">
                     Contact
                   </Link>

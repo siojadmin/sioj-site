@@ -1,7 +1,21 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact — Anderson Siqueira Lourenço and SIOJ",
+  description:
+    "Direct institutional contact for Anderson Siqueira Lourenço, Operador Fundacional do SIOJ.",
+  alternates: {
+    canonical: "/contact",
+  },
+};
+
 const orcidUrl = "https://orcid.org/0000-0003-4849-9245";
+const githubUrl = "https://github.com/siojadmin/sioj-site";
+const patreonUrl =
+  "https://www.patreon.com/siojintegratesystemoflegalorganization/posts/sioj-labs-paper-162826221?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link";
 
 export default function ContactPage() {
-  const name = "Dr. Anderson Siqueira Lourenço";
+  const name = "Anderson Siqueira Lourenço";
 
   return (
     <section className="container py-20 md:py-28">
@@ -17,14 +31,25 @@ export default function ContactPage() {
             name
           )}
         </p>
+        <p>Operador Fundacional — SIOJ</p>
         <p>Founder & Research Lead</p>
-        <p>Attorney at Law — OAB/DF 39.544</p>
         <p className="mt-8">
-          <a href="mailto:contact@sioj.org" className="text-link">
-            contact@sioj.org
+          <a href="mailto:anderson@sioj.org" className="text-link">
+            anderson@sioj.org
           </a>
         </p>
         <p className="mt-8">Brasília — Brazil</p>
+        <div className="mt-8 flex flex-wrap gap-5">
+          <a href={orcidUrl} className="text-link" rel="noreferrer" target="_blank">
+            ORCID
+          </a>
+          <a href={githubUrl} className="text-link" rel="noreferrer" target="_blank">
+            GitHub
+          </a>
+          <a href={patreonUrl} className="text-link" rel="noreferrer" target="_blank">
+            Patreon
+          </a>
+        </div>
       </div>
     </section>
   );

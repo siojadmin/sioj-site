@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://sioj.org/</loc></url>
-  <url><loc>https://sioj.org/manifesto</loc></url>
-  <url><loc>https://sioj.org/research</loc></url>
-  <url><loc>https://sioj.org/contact</loc></url>
+  <url><loc>https://sioj.org/</loc><lastmod>2026-07-05</lastmod></url>
+  <url><loc>https://sioj.org/manifesto</loc><lastmod>2026-07-05</lastmod></url>
+  <url><loc>https://sioj.org/research</loc><lastmod>2026-07-05</lastmod></url>
+  <url><loc>https://sioj.org/contact</loc><lastmod>2026-07-05</lastmod></url>
 </urlset>

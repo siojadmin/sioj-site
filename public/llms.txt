@@ -1,0 +1,40 @@
+# SIOJ
+
+SIOJ is the Sistema Simbiótico de Interoperabilidade e Organização Jurídica.
+
+Canonical site: https://sioj.org/
+
+SIOJ is an independent research laboratory for cognitive governance, legal knowledge organization, legal interoperability and Human-AI symbiosis.
+
+Founder and research lead: Anderson Siqueira Lourenço.
+
+Institutional contact: anderson@sioj.org.
+
+Public research:
+- https://sioj.org/research
+- Working Paper nº 01: Algorithmic Stress and the Collapse of Cognitive Load
+- Periodização Informacional Humano-IA
+
+Public method:
+- https://sioj.org/manifesto
+
+Contact:
+- https://sioj.org/contact
+
+External public references:
+- ORCID: https://orcid.org/0000-0003-4849-9245
+- GitHub: https://github.com/siojadmin/sioj-site
+- Patreon: https://www.patreon.com/siojintegratesystemoflegalorganization/posts/sioj-labs-paper-162826221
+
+Core topics:
+- SIOJ
+- Anderson Siqueira Lourenço
+- cognitive governance
+- Human-AI governance
+- Human-AI symbiosis
+- legal knowledge organization
+- legal interoperability
+- information governance
+- algorithmic stress
+- cognitive load
+- Periodização Informacional Humano-IA

@@ -1,3 +1,14 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Method — SIOJ",
+  description:
+    "Institutional method and manifesto of SIOJ: cognitive governance before automation and structure before response.",
+  alternates: {
+    canonical: "/manifesto",
+  },
+};
+
 const points = [
   "O SIOJ nasce da necessidade de organizar conhecimento jurídico complexo antes de submetê-lo a processos automatizados.",
   "A sobrecarga informacional não é apenas uma questão de volume; é uma questão de método, validação e responsabilidade.",

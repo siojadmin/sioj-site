@@ -1,3 +1,14 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Research — SIOJ Working Paper 01",
+  description:
+    "Research page for SIOJ Working Paper 01: Algorithmic Stress, cognitive load and Periodização Informacional Humano-IA.",
+  alternates: {
+    canonical: "/research",
+  },
+};
+
 export default function ResearchPage() {
   return (
     <section className="container py-20 md:py-28">
