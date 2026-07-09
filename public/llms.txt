@@ -1,8 +1,10 @@
 # SIOJ
 
-SIOJ is the Sistema Simbiótico de Interoperabilidade e Organização Jurídica.
+Canonical language routes:
+- Portuguese: https://sioj.org/pt
+- English: https://sioj.org/en
 
-Canonical site: https://sioj.org/
+SIOJ is the Sistema Simbiótico de Interoperabilidade e Organização Jurídica, also described in English as the Symbiotic System for Legal Interoperability and Organization.
 
 SIOJ is an independent research laboratory for cognitive governance, legal knowledge organization, legal interoperability and Human-AI symbiosis.
 
@@ -11,21 +13,26 @@ Founder and research lead: Anderson Siqueira Lourenço.
 Institutional contact: anderson@sioj.org.
 
 Public research:
-- https://sioj.org/research
-- Working Paper nº 01: Algorithmic Stress and the Collapse of Cognitive Load
-- Periodização Informacional Humano-IA
+- Portuguese: https://sioj.org/pt/pesquisa
+- English: https://sioj.org/en/research
+- Working Paper No. 01: Algorithmic Stress and the Collapse of Cognitive Load
+- Periodização Informacional Humano-IA / Human-AI Informational Periodization
 
 Public method:
-- https://sioj.org/manifesto
+- Portuguese: https://sioj.org/pt/metodo
+- English: https://sioj.org/en/method
 
 Contact:
-- https://sioj.org/contact
+- Portuguese: https://sioj.org/pt/contato
+- English: https://sioj.org/en/contact
 
 Discovery files:
 - https://sioj.org/sitemap.xml
 - https://sioj.org/robots.txt
 - https://sioj.org/humans.txt
 - https://sioj.org/opensearch.xml
+- https://sioj.org/sioj-metadata.json
+- https://sioj.org/ai-chunks.json
 
 External public references:
 - ORCID: https://orcid.org/0000-0003-4849-9245
@@ -36,38 +43,19 @@ Core topics:
 - SIOJ
 - Anderson Siqueira Lourenço
 - Sistema Simbiótico de Interoperabilidade e Organização Jurídica
-- Sistema Simbiotico de Interoperabilidade e Organizacao Juridica
+- Symbiotic System for Legal Interoperability and Organization
 - SIOJ Labs
-- siojadmin
-- sioj-site
-- sioj-core
-- sioj-docs
-- sioj-labs
-- sioj-research
-- sioj-api
-- sioj-rag
-- sioj-security
-- sioj-data
-- simbiose
-- simbiótico
-- simbiotico
-- Human–AI Symbiosis
 - Human-AI Symbiosis
 - simbiose Humano-IA
 - cognitive governance
 - governança cognitiva
-- governanca cognitiva
-- Human-AI governance
-- Human-AI symbiosis
 - legal knowledge organization
 - legal interoperability
 - interoperabilidade jurídica
-- interoperabilidade juridica
-- information governance
 - algorithmic stress
 - cognitive load
 - Periodização Informacional Humano-IA
-- Periodizacao Informacional Humano IA
+- Human-AI Informational Periodization
 - AI chunks
 - research chunks
 - public metadata
@@ -82,7 +70,3 @@ Public project namespace:
 - sioj-rag: future institutional namespace for retrieval architecture.
 - sioj-security: future institutional namespace for security and validation.
 - sioj-data: future institutional namespace for data structures.
-
-AI-readable chunks:
-- https://sioj.org/ai-chunks.json
-- https://sioj.org/sioj-metadata.json

@@ -1,11 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://sioj.org/</loc><lastmod>2026-07-05</lastmod></url>
-  <url><loc>https://sioj.org/manifesto</loc><lastmod>2026-07-05</lastmod></url>
-  <url><loc>https://sioj.org/research</loc><lastmod>2026-07-05</lastmod></url>
-  <url><loc>https://sioj.org/contact</loc><lastmod>2026-07-05</lastmod></url>
-  <url><loc>https://sioj.org/llms.txt</loc><lastmod>2026-07-05</lastmod></url>
-  <url><loc>https://sioj.org/humans.txt</loc><lastmod>2026-07-05</lastmod></url>
-  <url><loc>https://sioj.org/sioj-metadata.json</loc><lastmod>2026-07-05</lastmod></url>
-  <url><loc>https://sioj.org/ai-chunks.json</loc><lastmod>2026-07-05</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://sioj.org/pt</loc>
+    <lastmod>2026-07-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sioj.org/pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sioj.org/en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sioj.org/en" />
+  </url>
+  <url>
+    <loc>https://sioj.org/en</loc>
+    <lastmod>2026-07-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sioj.org/pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sioj.org/en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sioj.org/en" />
+  </url>
+  <url>
+    <loc>https://sioj.org/pt/metodo</loc>
+    <lastmod>2026-07-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sioj.org/pt/metodo" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sioj.org/en/method" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sioj.org/en/method" />
+  </url>
+  <url>
+    <loc>https://sioj.org/en/method</loc>
+    <lastmod>2026-07-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sioj.org/pt/metodo" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sioj.org/en/method" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sioj.org/en/method" />
+  </url>
+  <url>
+    <loc>https://sioj.org/pt/pesquisa</loc>
+    <lastmod>2026-07-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sioj.org/pt/pesquisa" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sioj.org/en/research" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sioj.org/en/research" />
+  </url>
+  <url>
+    <loc>https://sioj.org/en/research</loc>
+    <lastmod>2026-07-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sioj.org/pt/pesquisa" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sioj.org/en/research" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sioj.org/en/research" />
+  </url>
+  <url>
+    <loc>https://sioj.org/pt/contato</loc>
+    <lastmod>2026-07-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sioj.org/pt/contato" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sioj.org/en/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sioj.org/en/contact" />
+  </url>
+  <url>
+    <loc>https://sioj.org/en/contact</loc>
+    <lastmod>2026-07-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sioj.org/pt/contato" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sioj.org/en/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sioj.org/en/contact" />
+  </url>
+  <url><loc>https://sioj.org/llms.txt</loc><lastmod>2026-07-09</lastmod></url>
+  <url><loc>https://sioj.org/humans.txt</loc><lastmod>2026-07-09</lastmod></url>
+  <url><loc>https://sioj.org/sioj-metadata.json</loc><lastmod>2026-07-09</lastmod></url>
+  <url><loc>https://sioj.org/ai-chunks.json</loc><lastmod>2026-07-09</lastmod></url>
 </urlset>

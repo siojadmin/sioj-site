@@ -1,23 +1,35 @@
 {
-  "schema_version": "sioj-public-metadata-v0.9",
+  "schema_version": "sioj-public-metadata-v1.0-i18n",
   "canonical_site": "https://sioj.org/",
+  "canonical_routes": {
+    "pt-BR": "https://sioj.org/pt",
+    "en": "https://sioj.org/en",
+    "x-default": "https://sioj.org/en"
+  },
   "canonical_name": "SIOJ",
-  "full_name": "Sistema Simbiótico de Interoperabilidade e Organização Jurídica",
+  "full_name_pt": "Sistema Simbiótico de Interoperabilidade e Organização Jurídica",
+  "full_name_en": "Symbiotic System for Legal Interoperability and Organization",
   "ascii_name": "Sistema Simbiotico de Interoperabilidade e Organizacao Juridica",
   "institutional_positioning": "Independent research laboratory for cognitive governance, legal knowledge organization, interoperability and Human-AI symbiosis.",
-  "foundational_tagline": "Antes do prompt, o método. Antes da resposta, a estrutura.",
+  "foundational_tagline_pt": "Antes do prompt, o método. Antes da resposta, a estrutura.",
+  "foundational_tagline_en": "Before the prompt, method. Before the answer, structure.",
   "founder": {
     "name": "Anderson Siqueira Lourenço",
     "role": "Founder & Research Lead",
-    "institutional_role": "Operador Fundacional — SIOJ",
+    "institutional_role_pt": "Operador Fundacional — SIOJ",
+    "institutional_role_en": "Foundational Operator — SIOJ",
     "email": "anderson@sioj.org",
     "orcid": "https://orcid.org/0000-0003-4849-9245"
   },
   "public_links": {
-    "site": "https://sioj.org/",
-    "method": "https://sioj.org/manifesto",
-    "research": "https://sioj.org/research",
-    "contact": "https://sioj.org/contact",
+    "site_pt": "https://sioj.org/pt",
+    "site_en": "https://sioj.org/en",
+    "method_pt": "https://sioj.org/pt/metodo",
+    "method_en": "https://sioj.org/en/method",
+    "research_pt": "https://sioj.org/pt/pesquisa",
+    "research_en": "https://sioj.org/en/research",
+    "contact_pt": "https://sioj.org/pt/contato",
+    "contact_en": "https://sioj.org/en/contact",
     "github": "https://github.com/siojadmin/sioj-site",
     "patreon": "https://www.patreon.com/siojintegratesystemoflegalorganization/posts/sioj-labs-paper-162826221"
   },
@@ -46,26 +58,6 @@
       "name": "sioj-research",
       "status": "reserved namespace",
       "description": "Institutional namespace for working papers and research outputs."
-    },
-    {
-      "name": "sioj-api",
-      "status": "future namespace",
-      "description": "Future institutional namespace for API surfaces."
-    },
-    {
-      "name": "sioj-rag",
-      "status": "future namespace",
-      "description": "Future institutional namespace for retrieval architecture."
-    },
-    {
-      "name": "sioj-security",
-      "status": "future namespace",
-      "description": "Future institutional namespace for security and validation."
-    },
-    {
-      "name": "sioj-data",
-      "status": "future namespace",
-      "description": "Future institutional namespace for data structures."
     }
   ],
   "aliases": [
@@ -74,26 +66,22 @@
     "SIOJ Labs",
     "Sistema Simbiótico de Interoperabilidade e Organização Jurídica",
     "Sistema Simbiotico de Interoperabilidade e Organizacao Juridica",
+    "Symbiotic System for Legal Interoperability and Organization",
     "Anderson Siqueira Lourenço SIOJ",
     "Anderson Siqueira Lourenco SIOJ"
   ],
   "topics": [
-    "simbiose",
-    "simbiótico",
-    "simbiotico",
     "Human-AI symbiosis",
-    "Human–AI Symbiosis",
     "simbiose Humano-IA",
+    "cognitive governance",
     "governança cognitiva",
-    "governanca cognitiva",
-    "Human-AI governance",
     "legal knowledge organization",
+    "legal interoperability",
     "interoperabilidade jurídica",
-    "interoperabilidade juridica",
     "algorithmic stress",
     "cognitive load",
     "Periodização Informacional Humano-IA",
-    "Periodizacao Informacional Humano IA",
+    "Human-AI Informational Periodization",
     "AI chunks",
     "research chunks",
     "public metadata"
@@ -101,9 +89,10 @@
   "working_papers": [
     {
       "number": "01",
-      "title": "Algorithmic Stress and the Collapse of Cognitive Load",
-      "related_title": "Periodização Informacional Humano–IA",
-      "url": "https://sioj.org/research",
+      "title_en": "Algorithmic Stress and the Collapse of Cognitive Load",
+      "title_pt": "Periodização Informacional Humano-IA",
+      "url_pt": "https://sioj.org/pt/pesquisa",
+      "url_en": "https://sioj.org/en/research",
       "public_tracking": "https://www.patreon.com/siojintegratesystemoflegalorganization/posts/sioj-labs-paper-162826221"
     }
   ]

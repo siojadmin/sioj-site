@@ -80,6 +80,52 @@ a {
   color: var(--text);
 }
 
+.language-link {
+  color: var(--accent);
+  font-size: 0.9rem;
+  transition: color 160ms ease;
+}
+
+.language-link:hover {
+  color: var(--text);
+}
+
+.language-card {
+  border: 1px solid var(--line);
+  background: rgba(16, 19, 23, 0.74);
+  color: var(--accent);
+  display: inline-flex;
+  min-width: 148px;
+  justify-content: center;
+  padding: 14px 18px;
+  font-weight: 700;
+}
+
+.language-card:hover {
+  border-color: rgba(183, 209, 197, 0.7);
+  color: var(--text);
+}
+
+.flow-link {
+  border: 1px solid var(--line);
+  color: var(--muted);
+  display: inline-flex;
+  min-height: 52px;
+  align-items: center;
+  padding: 10px 17px;
+  font-size: 1rem;
+  transition:
+    border-color 160ms ease,
+    color 160ms ease,
+    background 160ms ease;
+}
+
+.flow-link:hover {
+  background: rgba(183, 209, 197, 0.08);
+  border-color: rgba(183, 209, 197, 0.62);
+  color: var(--text);
+}
+
 .rule-box {
   border: 1px solid var(--line);
   background: rgba(16, 19, 23, 0.74);
