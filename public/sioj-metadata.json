@@ -28,6 +28,8 @@
     "method_en": "https://sioj.org/en/method",
     "research_pt": "https://sioj.org/pt/pesquisa",
     "research_en": "https://sioj.org/en/research",
+    "paper_01_pt": "https://sioj.org/pt/pesquisa/artigo-01",
+    "paper_01_en": "https://sioj.org/en/research/paper-01",
     "contact_pt": "https://sioj.org/pt/contato",
     "contact_en": "https://sioj.org/en/contact",
     "github": "https://github.com/siojadmin/sioj-site",
@@ -90,9 +92,18 @@
     {
       "number": "01",
       "title_en": "Algorithmic Stress and the Collapse of Cognitive Load",
-      "title_pt": "Periodização Informacional Humano-IA",
-      "url_pt": "https://sioj.org/pt/pesquisa",
-      "url_en": "https://sioj.org/en/research",
+      "title_pt": "Estresse Algorítmico e o Colapso da Carga Cognitiva",
+      "subtitle_en": "Methodological Foundation",
+      "subtitle_pt": "Fundação Metodológica",
+      "url_pt": "https://sioj.org/pt/pesquisa/artigo-01",
+      "url_en": "https://sioj.org/en/research/paper-01",
+      "doi": "10.5281/zenodo.21569973",
+      "zenodo_url": "https://zenodo.org/uploads/21569973",
+      "zenodo_record_id": "21569973",
+      "pdf_url": "https://zenodo.org/uploads/21569973",
+      "author": "Anderson Siqueira Lourenço",
+      "language": "en",
+      "file_size_kb": 240.85,
       "public_tracking": "https://www.patreon.com/siojintegratesystemoflegalorganization/posts/sioj-labs-paper-162826221"
     }
   ]

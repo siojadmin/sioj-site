@@ -28,7 +28,7 @@
       "language": "en",
       "title": "Anderson Siqueira Lourenço and SIOJ",
       "url": "https://sioj.org/en/contact",
-      "text": "Anderson Siqueira Lourenço is the Founder and Research Lead and Foundational Operator of SIOJ. The institutional contact is anderson@sioj.org, and the public ORCID is https://orcid.org/0000-0003-4849-9245.",
+      "text": "Anderson Siqueira Lourenço is the Founder and Research Lead and Foundational Operator of SIOJ. The institutional contact is anderson@sioj.org, and the public ORCID is https://orcid.org/0000-0003-4849-9245",
       "keywords": ["Anderson Siqueira Lourenço", "Anderson Siqueira Lourenco", "SIOJ", "ORCID", "anderson@sioj.org"]
     },
     {
@@ -36,7 +36,7 @@
       "language": "pt-BR",
       "title": "Método SIOJ",
       "url": "https://sioj.org/pt/metodo",
-      "text": "A diretriz central do SIOJ é: Antes do prompt, o método. Antes da resposta, a estrutura. O método estuda ciclos de carga informacional, assimilação, recuperação, feedback, validação e nova carga em sistemas Humano-IA.",
+      "text": "A diretriz central do SIOJ é: Antes do prompt, o método. Antes da resposta, a estrutura. O método estuda ciclos de carga informacional, assimilação, recuperação, feedback, validação e aprimoramento contínuo na governança Humano-IA.",
       "keywords": ["método", "estrutura", "carga informacional", "validação", "governança Humano-IA"]
     },
     {
@@ -44,7 +44,7 @@
       "language": "en",
       "title": "SIOJ method",
       "url": "https://sioj.org/en/method",
-      "text": "The central SIOJ directive is: before the prompt, method; before the answer, structure. The method studies cycles of informational load, assimilation, recovery, feedback, validation and renewed load in Human-AI systems.",
+      "text": "The central SIOJ directive is: before the prompt, method; before the answer, structure. The method studies cycles of informational load, assimilation, recovery, feedback, validation and continuous improvement in Human-AI governance.",
       "keywords": ["method", "structure", "informational load", "validation", "Human-AI governance"]
     },
     {
@@ -54,6 +54,30 @@
       "url": "https://sioj.org/en/research",
       "text": "SIOJ research begins publicly with Working Paper No. 01, Algorithmic Stress and the Collapse of Cognitive Load, related to Human-AI Informational Periodization.",
       "keywords": ["Working Paper 01", "Algorithmic Stress", "Cognitive Load", "Human-AI Informational Periodization"]
+    },
+    {
+      "id": "sioj-research-pt",
+      "language": "pt-BR",
+      "title": "Pesquisa SIOJ",
+      "url": "https://sioj.org/pt/pesquisa",
+      "text": "A pesquisa SIOJ começa publicamente com o Working Paper No. 01, Estresse Algorítmico e o Colapso da Carga Cognitiva, relacionado à Periodização Informacional Humano-IA.",
+      "keywords": ["Working Paper 01", "Estresse Algorítmico", "Carga Cognitiva", "Periodização Informacional Humano-IA"]
+    },
+    {
+      "id": "working-paper-01-en",
+      "language": "en",
+      "title": "Working Paper 01: Algorithmic Stress and the Collapse of Cognitive Load",
+      "url": "https://sioj.org/en/research/paper-01",
+      "text": "Working Paper 01 presents the foundational research on Algorithmic Stress and Cognitive Load. This paper establishes the methodological foundation for Human-AI Informational Periodization and is publicly available on Zenodo with DOI 10.5281/zenodo.21569973.",
+      "keywords": ["Working Paper 01", "Algorithmic Stress", "Cognitive Load", "Zenodo", "DOI", "Human-AI Informational Periodization"]
+    },
+    {
+      "id": "working-paper-01-pt",
+      "language": "pt-BR",
+      "title": "Working Paper 01: Estresse Algorítmico e o Colapso da Carga Cognitiva",
+      "url": "https://sioj.org/pt/pesquisa/artigo-01",
+      "text": "O Working Paper 01 apresenta a pesquisa fundacional sobre Estresse Algorítmico e Carga Cognitiva. Este artigo estabelece a base metodológica para a Periodização Informacional Humano-IA e está disponível publicamente no Zenodo com DOI 10.5281/zenodo.21569973.",
+      "keywords": ["Working Paper 01", "Estresse Algorítmico", "Carga Cognitiva", "Zenodo", "DOI", "Periodização Informacional Humano-IA"]
     }
   ]
 }
