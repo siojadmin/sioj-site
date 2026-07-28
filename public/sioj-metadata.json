@@ -96,15 +96,20 @@
       "title_en": "Algorithmic Stress and the Collapse of Cognitive Load",
       "subtitle_en": "Methodological Foundations for Informational Periodization in Human-AI Symbiosis",
       "title_pt": "Estresse Algorítmico e o Colapso da Carga Cognitiva",
+      "subtitle_pt": "Fundamentos metodológicos para a Periodização Informacional na simbiose Humano-IA",
       "url_pt": "https://sioj.org/pt/pesquisa",
       "url_en": "https://sioj.org/en/research",
       "doi": "10.5281/zenodo.21569973",
       "doi_url": "https://doi.org/10.5281/zenodo.21569973",
       "zenodo_record": "https://zenodo.org/records/21569973",
+      "zenodo_record_id": "21569973",
       "resource_type": "Preprint",
       "version": "1.0",
       "publication_date": "2026-07-28",
       "license": "CC BY 4.0",
+      "author": "Anderson Siqueira Lourenço",
+      "language": "en",
+      "file_size_kb": 187.47,
       "public_tracking": "https://www.patreon.com/siojintegratesystemoflegalorganization/posts/sioj-labs-paper-162826221"
     }
   ]
