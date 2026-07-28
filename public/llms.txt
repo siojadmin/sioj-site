@@ -22,6 +22,11 @@ Public method:
 - Portuguese: https://sioj.org/pt/metodo
 - English: https://sioj.org/en/method
 
+SIOJ Labs operating architecture:
+- Portuguese: https://sioj.org/pt/labs
+- English: https://sioj.org/en/labs
+- Human core, verifiable memory, interoperable technical organs and continuous human validation
+
 Contact:
 - Portuguese: https://sioj.org/pt/contato
 - English: https://sioj.org/en/contact

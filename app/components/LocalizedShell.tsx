@@ -142,7 +142,7 @@ export function LocalizedShell({ children, locale, page }: Props) {
               <a href={externalLinks.patreon} className="text-link" rel="noreferrer" target="_blank">
                 Patreon
               </a>
-              <Link href={content.nav[3].href} className="text-link">
+              <Link href={localizedPath(locale, "contact")} className="text-link">
                 {content.contactLink}
               </Link>
             </div>

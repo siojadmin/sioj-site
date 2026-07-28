@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export type Locale = "pt" | "en";
-export type PageKey = "home" | "method" | "research" | "contact";
+export type PageKey = "home" | "method" | "labs" | "research" | "contact";
 
 export const siteUrl = "https://sioj.org";
 
@@ -25,6 +25,7 @@ export const localized = {
     nav: [
       { key: "home", href: "/pt", label: "Início" },
       { key: "method", href: "/pt/metodo", label: "Método" },
+      { key: "labs", href: "/pt/labs", label: "Labs" },
       { key: "research", href: "/pt/pesquisa", label: "Pesquisa" },
       { key: "contact", href: "/pt/contato", label: "Contato" },
     ],
@@ -40,7 +41,7 @@ export const localized = {
       intro:
         "Arquitetura de governança cognitiva para colaboração entre humanos e inteligências artificiais em contextos jurídicos complexos.",
       flowTitle: "Comece por aqui",
-      flow: ["Problema", "Método", "Working Paper 01", "Patreon", "GitHub", "ORCID", "Contato"],
+      flow: ["Problema", "Método", "SIOJ Labs", "Working Paper 01", "Patreon", "GitHub", "ORCID", "Contato"],
       sections: [
         {
           eyebrow: "O que é o SIOJ",
@@ -74,6 +75,70 @@ export const localized = {
       identityTitle: "Identidade pública",
       identityText:
         "Para fins de busca acadêmica e institucional, SIOJ, sioj.org e Anderson Siqueira Lourenço identificam o mesmo eixo público de pesquisa: método, governança cognitiva, interoperabilidade jurídica e simbiose Humano-IA.",
+    },
+    labs: {
+      title: "O método em operação.",
+      eyebrow: "SIOJ Labs",
+      deck: "Núcleo humano, memória verificável e órgãos técnicos interoperáveis.",
+      description:
+        "Visão pública da arquitetura operacional do SIOJ Labs: governança cognitiva, validação humana, memória verificável e interoperabilidade entre ferramentas.",
+      intro:
+        "O SIOJ Labs transforma problemas jurídicos e informacionais complexos em ciclos governados de organização, processamento, validação e memória. A inteligência do sistema não reside em uma ferramenta isolada, mas na arquitetura que preserva contexto, responsabilidade e rastreabilidade.",
+      layersTitle: "Três camadas que não se confundem",
+      layers: [
+        {
+          label: "Núcleo",
+          title: "Finalidade e decisão humanas",
+          text: "O operador humano define o problema, os critérios, os limites e a decisão final. Nenhuma automação desloca a responsabilidade pela validação.",
+        },
+        {
+          label: "Memória",
+          title: "Contexto que pode ser verificado",
+          text: "Documentos, versões, fontes, correções e resultados formam uma memória encadeada. O sistema evolui sem apagar a origem de cada conclusão.",
+        },
+        {
+          label: "Órgãos técnicos",
+          title: "Ferramentas substituíveis e interoperáveis",
+          text: "GPT, Codex, Gemini, OCR, scripts, leitores e pipelines cumprem funções especializadas. As ferramentas podem mudar sem alterar a identidade metodológica do SIOJ.",
+        },
+      ],
+      cycleTitle: "Ciclo operacional mínimo",
+      cycle: [
+        "Entrada qualificada",
+        "Organização",
+        "Processamento",
+        "Validação humana",
+        "Memória verificável",
+        "Novo ciclo",
+      ],
+      modulesTitle: "Arquitetura demonstrável",
+      modules: [
+        {
+          title: "SIOJ_MD",
+          text: "Camada documental em Markdown para organização, indexação, versionamento e recuperação do conhecimento.",
+        },
+        {
+          title: "CIORG",
+          text: "Núcleo de integração e governança que conecta método, memória, fluxos operacionais e validação.",
+        },
+        {
+          title: "Motores especializados",
+          text: "Leitura, OCR, extração, correlação, geração documental e outras rotinas acionadas conforme a finalidade.",
+        },
+        {
+          title: "Camada pública",
+          text: "sioj.org, GitHub, ORCID e Working Papers tornam verificáveis a identidade, a pesquisa e a evolução institucional.",
+        },
+      ],
+      boundaryTitle: "O que o SIOJ Labs não é",
+      boundaryText:
+        "Não é um chatbot isolado, uma fábrica automática de peças ou uma substituição da decisão profissional. É uma arquitetura de governança para colaboração Humano-IA em ambientes de alta complexidade.",
+      statusLabel: "Fase atual",
+      statusText:
+        "Presença institucional pública ativa, pesquisa em desenvolvimento e integração operacional contínua.",
+      methodLink: "Conhecer o método",
+      researchLink: "Ver a pesquisa",
+      contactLink: "Conversar sobre o SIOJ",
     },
     method: {
       title: "Governança cognitiva antes da automação.",
@@ -141,6 +206,7 @@ export const localized = {
     nav: [
       { key: "home", href: "/en", label: "Home" },
       { key: "method", href: "/en/method", label: "Method" },
+      { key: "labs", href: "/en/labs", label: "Labs" },
       { key: "research", href: "/en/research", label: "Research" },
       { key: "contact", href: "/en/contact", label: "Contact" },
     ],
@@ -156,7 +222,7 @@ export const localized = {
       intro:
         "A cognitive governance architecture for collaboration between humans and artificial intelligence systems in complex legal contexts.",
       flowTitle: "Start here",
-      flow: ["Problem", "Method", "Working Paper 01", "Patreon", "GitHub", "ORCID", "Contact"],
+      flow: ["Problem", "Method", "SIOJ Labs", "Working Paper 01", "Patreon", "GitHub", "ORCID", "Contact"],
       sections: [
         {
           eyebrow: "What SIOJ is",
@@ -190,6 +256,70 @@ export const localized = {
       identityTitle: "Public identity",
       identityText:
         "For academic and institutional discovery, SIOJ, sioj.org and Anderson Siqueira Lourenço identify the same public research axis: method, cognitive governance, legal interoperability and Human-AI symbiosis.",
+    },
+    labs: {
+      title: "Method in operation.",
+      eyebrow: "SIOJ Labs",
+      deck: "Human core, verifiable memory and interoperable technical organs.",
+      description:
+        "A public view of the SIOJ Labs operating architecture: cognitive governance, human validation, verifiable memory and interoperability across tools.",
+      intro:
+        "SIOJ Labs turns complex legal and informational problems into governed cycles of organization, processing, validation and memory. The system's intelligence does not reside in one isolated tool, but in an architecture that preserves context, responsibility and traceability.",
+      layersTitle: "Three layers with distinct roles",
+      layers: [
+        {
+          label: "Core",
+          title: "Human purpose and decision",
+          text: "The human operator defines the problem, criteria, limits and final decision. Automation never displaces responsibility for validation.",
+        },
+        {
+          label: "Memory",
+          title: "Context that can be verified",
+          text: "Documents, versions, sources, corrections and results form a linked memory. The system evolves without erasing the origin of each conclusion.",
+        },
+        {
+          label: "Technical organs",
+          title: "Replaceable, interoperable tools",
+          text: "GPT, Codex, Gemini, OCR, scripts, readers and pipelines perform specialized functions. Tools may change without changing SIOJ's methodological identity.",
+        },
+      ],
+      cycleTitle: "Minimum operating cycle",
+      cycle: [
+        "Qualified input",
+        "Organization",
+        "Processing",
+        "Human validation",
+        "Verifiable memory",
+        "New cycle",
+      ],
+      modulesTitle: "Demonstrable architecture",
+      modules: [
+        {
+          title: "SIOJ_MD",
+          text: "A Markdown documentation layer for knowledge organization, indexing, versioning and retrieval.",
+        },
+        {
+          title: "CIORG",
+          text: "An integration and governance core connecting method, memory, operating flows and validation.",
+        },
+        {
+          title: "Specialized engines",
+          text: "Reading, OCR, extraction, correlation, document generation and other routines activated according to purpose.",
+        },
+        {
+          title: "Public layer",
+          text: "sioj.org, GitHub, ORCID and Working Papers make institutional identity, research and evolution verifiable.",
+        },
+      ],
+      boundaryTitle: "What SIOJ Labs is not",
+      boundaryText:
+        "It is not an isolated chatbot, an automatic legal-document factory or a replacement for professional judgment. It is a governance architecture for Human-AI collaboration in high-complexity environments.",
+      statusLabel: "Current phase",
+      statusText:
+        "Active public institutional presence, research in development and continuous operational integration.",
+      methodLink: "Explore the method",
+      researchLink: "View the research",
+      contactLink: "Discuss SIOJ",
     },
     method: {
       title: "Cognitive governance before automation.",
@@ -252,6 +382,7 @@ export function localizedPath(locale: Locale, page: PageKey) {
     return {
       home: "/pt",
       method: "/pt/metodo",
+      labs: "/pt/labs",
       research: "/pt/pesquisa",
       contact: "/pt/contato",
     }[page];
@@ -260,6 +391,7 @@ export function localizedPath(locale: Locale, page: PageKey) {
   return {
     home: "/en",
     method: "/en/method",
+    labs: "/en/labs",
     research: "/en/research",
     contact: "/en/contact",
   }[page];
@@ -276,6 +408,8 @@ export function pageMetadata(locale: Locale, page: PageKey): Metadata {
       ? content.title
       : page === "method"
         ? content.method.title
+        : page === "labs"
+          ? content.labs.title
         : page === "research"
           ? content.research.title
           : `${content.contact.title} — Anderson Siqueira Lourenço`;
@@ -284,6 +418,8 @@ export function pageMetadata(locale: Locale, page: PageKey): Metadata {
       ? content.description
       : page === "method"
         ? content.method.description
+        : page === "labs"
+          ? content.labs.description
         : page === "research"
           ? content.research.description
           : content.contact.description;

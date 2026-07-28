@@ -30,7 +30,7 @@ Use these settings:
 
 ## Deployment checklist
 
-- Confirm only `/`, `/manifesto`, `/research`, and `/contact` are public routes.
+- Confirm only the language gateway plus the bilingual home, method, Labs, research, and contact routes are public.
 - Confirm `robots.txt` and `sitemap.xml` are available.
 - Confirm domain is configured as `sioj.org`.
 - Confirm no internal documents are copied into `site/public`.

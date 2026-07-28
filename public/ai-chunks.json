@@ -48,6 +48,22 @@
       "keywords": ["method", "structure", "informational load", "validation", "Human-AI governance"]
     },
     {
+      "id": "sioj-labs-pt",
+      "language": "pt-BR",
+      "title": "Como o SIOJ Labs opera?",
+      "url": "https://sioj.org/pt/labs",
+      "text": "O SIOJ Labs transforma problemas jurídicos e informacionais complexos em ciclos governados de entrada qualificada, organização, processamento, validação humana, memória verificável e nova carga. GPT, Codex, Gemini, OCR, scripts e pipelines são órgãos técnicos substituíveis; a identidade do sistema permanece no núcleo humano e metodológico.",
+      "keywords": ["SIOJ Labs", "validação humana", "memória verificável", "interoperabilidade", "governança cognitiva"]
+    },
+    {
+      "id": "sioj-labs-en",
+      "language": "en",
+      "title": "How does SIOJ Labs operate?",
+      "url": "https://sioj.org/en/labs",
+      "text": "SIOJ Labs turns complex legal and informational problems into governed cycles of qualified input, organization, processing, human validation, verifiable memory and renewed load. GPT, Codex, Gemini, OCR, scripts and pipelines are replaceable technical organs; the system's identity remains in its human and methodological core.",
+      "keywords": ["SIOJ Labs", "human validation", "verifiable memory", "interoperability", "cognitive governance"]
+    },
+    {
       "id": "sioj-research",
       "language": "en",
       "title": "SIOJ research",

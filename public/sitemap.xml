@@ -30,6 +30,20 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sioj.org/en/method" />
   </url>
   <url>
+    <loc>https://sioj.org/pt/labs</loc>
+    <lastmod>2026-07-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sioj.org/pt/labs" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sioj.org/en/labs" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sioj.org/en/labs" />
+  </url>
+  <url>
+    <loc>https://sioj.org/en/labs</loc>
+    <lastmod>2026-07-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sioj.org/pt/labs" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sioj.org/en/labs" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sioj.org/en/labs" />
+  </url>
+  <url>
     <loc>https://sioj.org/pt/pesquisa</loc>
     <lastmod>2026-07-09</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sioj.org/pt/pesquisa" />

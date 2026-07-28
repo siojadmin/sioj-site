@@ -5,6 +5,7 @@ const flowTargets = {
   pt: [
     { href: "#problema" },
     { href: "/pt/metodo" },
+    { href: "/pt/labs" },
     { href: "/pt/pesquisa" },
     { href: externalLinks.patreon, external: true },
     { href: externalLinks.github, external: true },
@@ -14,6 +15,7 @@ const flowTargets = {
   en: [
     { href: "#problem" },
     { href: "/en/method" },
+    { href: "/en/labs" },
     { href: "/en/research" },
     { href: externalLinks.patreon, external: true },
     { href: externalLinks.github, external: true },

@@ -26,6 +26,8 @@
     "site_en": "https://sioj.org/en",
     "method_pt": "https://sioj.org/pt/metodo",
     "method_en": "https://sioj.org/en/method",
+    "labs_pt": "https://sioj.org/pt/labs",
+    "labs_en": "https://sioj.org/en/labs",
     "research_pt": "https://sioj.org/pt/pesquisa",
     "research_en": "https://sioj.org/en/research",
     "contact_pt": "https://sioj.org/pt/contato",
@@ -51,8 +53,8 @@
     },
     {
       "name": "sioj-labs",
-      "status": "reserved namespace",
-      "description": "Institutional namespace for public research tracking."
+      "status": "public surface",
+      "description": "Public operating architecture and research tracking surface."
     },
     {
       "name": "sioj-research",
