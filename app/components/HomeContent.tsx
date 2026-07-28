@@ -6,7 +6,7 @@ const flowTargets = {
     { href: "#problema" },
     { href: "/pt/metodo" },
     { href: "/pt/labs" },
-    { href: "/pt/pesquisa" },
+    { href: externalLinks.doi, external: true },
     { href: externalLinks.patreon, external: true },
     { href: externalLinks.github, external: true },
     { href: externalLinks.orcid, external: true },
@@ -16,7 +16,7 @@ const flowTargets = {
     { href: "#problem" },
     { href: "/en/method" },
     { href: "/en/labs" },
-    { href: "/en/research" },
+    { href: externalLinks.doi, external: true },
     { href: externalLinks.patreon, external: true },
     { href: externalLinks.github, external: true },
     { href: externalLinks.orcid, external: true },
@@ -101,6 +101,9 @@ export function HomeContent({ locale }: { locale: Locale }) {
             <p className="mt-4 text-2xl leading-tight text-[var(--muted)]">{home.researchDeck}</p>
             <p className="body-copy mt-5 text-xl">{home.researchText}</p>
             <div className="mt-7 flex flex-wrap gap-5">
+              <a href={externalLinks.doi} className="text-link" rel="noreferrer" target="_blank">
+                {home.readPublication}
+              </a>
               <a href={externalLinks.patreon} className="text-link" rel="noreferrer" target="_blank">
                 {home.readPatreon}
               </a>

@@ -68,8 +68,16 @@
       "language": "en",
       "title": "SIOJ research",
       "url": "https://sioj.org/en/research",
-      "text": "SIOJ research begins publicly with Working Paper No. 01, Algorithmic Stress and the Collapse of Cognitive Load, related to Human-AI Informational Periodization.",
-      "keywords": ["Working Paper 01", "Algorithmic Stress", "Cognitive Load", "Human-AI Informational Periodization"]
+      "text": "SIOJ research begins publicly with Working Paper No. 01, Algorithmic Stress and the Collapse of Cognitive Load: Methodological Foundations for Informational Periodization in Human-AI Symbiosis. The preprint was published on Zenodo on July 28, 2026, version 1.0, under CC BY 4.0. DOI: 10.5281/zenodo.21569973.",
+      "keywords": ["Working Paper 01", "Algorithmic Stress", "Cognitive Load", "Human-AI Informational Periodization", "10.5281/zenodo.21569973", "Zenodo"]
+    },
+    {
+      "id": "sioj-research-pt",
+      "language": "pt-BR",
+      "title": "Pesquisa SIOJ",
+      "url": "https://sioj.org/pt/pesquisa",
+      "text": "O Working Paper 01 do SIOJ, Algorithmic Stress and the Collapse of Cognitive Load: Methodological Foundations for Informational Periodization in Human-AI Symbiosis, foi publicado no Zenodo em 28 de julho de 2026, versão 1.0, sob licença CC BY 4.0. DOI: 10.5281/zenodo.21569973.",
+      "keywords": ["Working Paper 01", "Estresse Algorítmico", "Carga Cognitiva", "Periodização Informacional Humano-IA", "10.5281/zenodo.21569973", "Zenodo"]
     }
   ]
 }

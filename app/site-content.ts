@@ -8,6 +8,8 @@ export const siteUrl = "https://sioj.org";
 export const externalLinks = {
   orcid: "https://orcid.org/0000-0003-4849-9245",
   github: "https://github.com/siojadmin/sioj-site",
+  zenodo: "https://zenodo.org/records/21569973",
+  doi: "https://doi.org/10.5281/zenodo.21569973",
   patreon:
     "https://www.patreon.com/siojintegratesystemoflegalorganization/posts/sioj-labs-paper-162826221?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
 };
@@ -30,7 +32,7 @@ export const localized = {
       { key: "contact", href: "/pt/contato", label: "Contato" },
     ],
     footerLine: "Pesquisa • Governança • Simbiose Humano-IA",
-    release: ["Versão fundacional", "v0.9", "Julho de 2026"],
+    release: ["Versão pública", "v1.0", "Julho de 2026"],
     founder: ["Dr. Anderson Siqueira Lourenço", "Fundador e líder de pesquisa", "Advogado — OAB/DF 39.544"],
     contactLink: "Contato",
     home: {
@@ -71,6 +73,7 @@ export const localized = {
       researchText:
         "O primeiro documento científico apresenta fundamentos metodológicos do SIOJ: estresse algorítmico, carga cognitiva e Periodização Informacional Humano-IA.",
       readPatreon: "Ler no Patreon",
+      readPublication: "Ler publicação no Zenodo",
       seeResearch: "Ver pesquisa",
       identityTitle: "Identidade pública",
       identityText:
@@ -135,7 +138,7 @@ export const localized = {
         "Não é um chatbot isolado, uma fábrica automática de peças ou uma substituição da decisão profissional. É uma arquitetura de governança para colaboração Humano-IA em ambientes de alta complexidade.",
       statusLabel: "Fase atual",
       statusText:
-        "Presença institucional pública ativa, pesquisa em desenvolvimento e integração operacional contínua.",
+        "Presença institucional pública ativa. Working Paper 01 publicado no Zenodo com DOI 10.5281/zenodo.21569973.",
       methodLink: "Conhecer o método",
       researchLink: "Ver a pesquisa",
       contactLink: "Conversar sobre o SIOJ",
@@ -157,27 +160,31 @@ export const localized = {
       ],
     },
     research: {
-      title: "Working Paper 01",
+      title: "Algorithmic Stress and the Collapse of Cognitive Load",
       eyebrow: "Pesquisa",
-      deck: "Periodização Informacional Humano-IA",
+      deck: "Fundamentos metodológicos para a Periodização Informacional na simbiose Humano-IA.",
       description:
-        "Página de pesquisa do SIOJ sobre estresse algorítmico, carga cognitiva e Periodização Informacional Humano-IA.",
+        "Working Paper 01 do SIOJ, publicado no Zenodo: estresse algorítmico, carga cognitiva e Periodização Informacional Humano-IA.",
+      publicationLabel: "Publicação aberta",
+      publicationText: "Preprint • Versão 1.0 • 28 de julho de 2026 • CC BY 4.0",
+      readPublication: "Abrir no Zenodo",
+      citeDoi: "DOI 10.5281/zenodo.21569973",
       rows: [
         {
           label: "Título",
-          text: "Periodização Informacional Humano-IA: uma proposta de governança cognitiva inspirada na fisiologia adaptativa e no treinamento de alta performance.",
+          text: "Algorithmic Stress and the Collapse of Cognitive Load: Methodological Foundations for Informational Periodization in Human-AI Symbiosis.",
+        },
+        {
+          label: "Publicação",
+          text: "Zenodo • Preprint • Versão 1.0 • Publicado em 28 de julho de 2026 • DOI 10.5281/zenodo.21569973.",
         },
         {
           label: "Resumo",
-          text: "Sistemas humano-IA, especialmente em contextos jurídicos complexos, devem ser governados por ciclos de carga informacional, assimilação, recuperação, feedback, validação e nova carga.",
+          text: "O artigo apresenta a Periodização Informacional Humano-IA como modelo metodológico para mitigar sobrecarga cognitiva e falsa fluência em ambientes de IA generativa, articulando Carga de Reconstrução Contextual, Memória Externa Auditável e validação humana.",
         },
         {
           label: "Trava metodológica",
           text: "A analogia com a fisiologia não afirma que a IA seja organismo biológico; propõe uma matriz funcional para estudar sistemas complexos submetidos a carga, resposta, ruído, feedback e adaptação.",
-        },
-        {
-          label: "Abstract",
-          text: "English abstract in preparation.",
         },
         {
           label: "Keywords",
@@ -211,7 +218,7 @@ export const localized = {
       { key: "contact", href: "/en/contact", label: "Contact" },
     ],
     footerLine: "Research • Governance • Human-AI Symbiosis",
-    release: ["Foundational Release", "v0.9", "July 2026"],
+    release: ["Public Release", "v1.0", "July 2026"],
     founder: ["Dr. Anderson Siqueira Lourenço", "Founder and Research Lead", "Attorney at Law — OAB/DF 39.544"],
     contactLink: "Contact",
     home: {
@@ -252,6 +259,7 @@ export const localized = {
       researchText:
         "The first scientific document presents SIOJ's methodological foundations: algorithmic stress, cognitive load and Human-AI Informational Periodization.",
       readPatreon: "Read on Patreon",
+      readPublication: "Read the publication on Zenodo",
       seeResearch: "View research",
       identityTitle: "Public identity",
       identityText:
@@ -316,7 +324,7 @@ export const localized = {
         "It is not an isolated chatbot, an automatic legal-document factory or a replacement for professional judgment. It is a governance architecture for Human-AI collaboration in high-complexity environments.",
       statusLabel: "Current phase",
       statusText:
-        "Active public institutional presence, research in development and continuous operational integration.",
+        "Active public institutional presence. Working Paper No. 01 published on Zenodo with DOI 10.5281/zenodo.21569973.",
       methodLink: "Explore the method",
       researchLink: "View the research",
       contactLink: "Discuss SIOJ",
@@ -338,27 +346,31 @@ export const localized = {
       ],
     },
     research: {
-      title: "Working Paper 01",
+      title: "Algorithmic Stress and the Collapse of Cognitive Load",
       eyebrow: "Research",
-      deck: "Human-AI Informational Periodization",
+      deck: "Methodological Foundations for Informational Periodization in Human-AI Symbiosis.",
       description:
-        "SIOJ research page on algorithmic stress, cognitive load and Human-AI Informational Periodization.",
+        "SIOJ Working Paper No. 01, published on Zenodo: algorithmic stress, cognitive load and Human-AI Informational Periodization.",
+      publicationLabel: "Open publication",
+      publicationText: "Preprint • Version 1.0 • July 28, 2026 • CC BY 4.0",
+      readPublication: "Open on Zenodo",
+      citeDoi: "DOI 10.5281/zenodo.21569973",
       rows: [
         {
           label: "Title",
-          text: "Human-AI Informational Periodization: a cognitive governance proposal inspired by adaptive physiology and high-performance training.",
+          text: "Algorithmic Stress and the Collapse of Cognitive Load: Methodological Foundations for Informational Periodization in Human-AI Symbiosis.",
+        },
+        {
+          label: "Publication",
+          text: "Zenodo • Preprint • Version 1.0 • Published July 28, 2026 • DOI 10.5281/zenodo.21569973.",
         },
         {
           label: "Abstract",
-          text: "Human-AI systems, especially in complex legal contexts, should be governed through cycles of informational load, assimilation, recovery, feedback, validation and renewed load.",
+          text: "The paper presents Human-AI Informational Periodization as a methodological model for mitigating cognitive overload and false fluency in generative AI environments, connecting Contextual Reconstruction Load, Audit-Ready External Memory and human validation.",
         },
         {
           label: "Methodological lock",
           text: "The physiology analogy does not claim that AI is a biological organism; it proposes a functional matrix for studying complex systems under load, response, noise, feedback and adaptation.",
-        },
-        {
-          label: "Resumo",
-          text: "Resumo em português disponível na versão /pt/pesquisa.",
         },
         {
           label: "Keywords",

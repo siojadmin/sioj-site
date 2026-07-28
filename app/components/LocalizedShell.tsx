@@ -35,7 +35,7 @@ export function LocalizedShell({ children, locale, page }: Props) {
         founder: {
           "@id": `${siteUrl}/#anderson-siqueira-lourenco`,
         },
-        sameAs: [externalLinks.github, externalLinks.patreon],
+        sameAs: [externalLinks.github, externalLinks.patreon, externalLinks.zenodo],
         contactPoint: {
           "@type": "ContactPoint",
           email: "anderson@sioj.org",
@@ -65,6 +65,30 @@ export function LocalizedShell({ children, locale, page }: Props) {
         email: "anderson@sioj.org",
         sameAs: [externalLinks.orcid, externalLinks.github, externalLinks.patreon],
         affiliation: {
+          "@id": `${siteUrl}/#organization`,
+        },
+      },
+      {
+        "@type": "ScholarlyArticle",
+        "@id": `${externalLinks.doi}#article`,
+        name: "Algorithmic Stress and the Collapse of Cognitive Load",
+        headline:
+          "Algorithmic Stress and the Collapse of Cognitive Load: Methodological Foundations for Informational Periodization in Human-AI Symbiosis",
+        author: {
+          "@id": `${siteUrl}/#anderson-siqueira-lourenco`,
+        },
+        publisher: {
+          "@type": "Organization",
+          name: "Zenodo",
+          url: "https://zenodo.org",
+        },
+        datePublished: "2026-07-28",
+        version: "1.0",
+        identifier: "https://doi.org/10.5281/zenodo.21569973",
+        url: externalLinks.zenodo,
+        license: "https://creativecommons.org/licenses/by/4.0/",
+        inLanguage: "en",
+        isPartOf: {
           "@id": `${siteUrl}/#organization`,
         },
       },
@@ -141,6 +165,9 @@ export function LocalizedShell({ children, locale, page }: Props) {
               </a>
               <a href={externalLinks.patreon} className="text-link" rel="noreferrer" target="_blank">
                 Patreon
+              </a>
+              <a href={externalLinks.doi} className="text-link" rel="noreferrer" target="_blank">
+                Zenodo
               </a>
               <Link href={localizedPath(locale, "contact")} className="text-link">
                 {content.contactLink}

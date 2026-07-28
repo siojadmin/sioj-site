@@ -30,6 +30,8 @@
     "labs_en": "https://sioj.org/en/labs",
     "research_pt": "https://sioj.org/pt/pesquisa",
     "research_en": "https://sioj.org/en/research",
+    "working_paper_01": "https://doi.org/10.5281/zenodo.21569973",
+    "zenodo_record": "https://zenodo.org/records/21569973",
     "contact_pt": "https://sioj.org/pt/contato",
     "contact_en": "https://sioj.org/en/contact",
     "github": "https://github.com/siojadmin/sioj-site",
@@ -92,9 +94,17 @@
     {
       "number": "01",
       "title_en": "Algorithmic Stress and the Collapse of Cognitive Load",
-      "title_pt": "Periodização Informacional Humano-IA",
+      "subtitle_en": "Methodological Foundations for Informational Periodization in Human-AI Symbiosis",
+      "title_pt": "Estresse Algorítmico e o Colapso da Carga Cognitiva",
       "url_pt": "https://sioj.org/pt/pesquisa",
       "url_en": "https://sioj.org/en/research",
+      "doi": "10.5281/zenodo.21569973",
+      "doi_url": "https://doi.org/10.5281/zenodo.21569973",
+      "zenodo_record": "https://zenodo.org/records/21569973",
+      "resource_type": "Preprint",
+      "version": "1.0",
+      "publication_date": "2026-07-28",
+      "license": "CC BY 4.0",
       "public_tracking": "https://www.patreon.com/siojintegratesystemoflegalorganization/posts/sioj-labs-paper-162826221"
     }
   ]

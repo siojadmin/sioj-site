@@ -1,6 +1,6 @@
 # SIOJ Site
 
-Institutional website for `sioj.org` v0.9.
+Institutional website for `sioj.org` v1.0.
 
 ## Local development
 

@@ -1,4 +1,4 @@
-import { localized, type Locale } from "../site-content";
+import { externalLinks, localized, type Locale } from "../site-content";
 
 export function ResearchContent({ locale }: { locale: Locale }) {
   const research = localized[locale].research;
@@ -10,6 +10,19 @@ export function ResearchContent({ locale }: { locale: Locale }) {
       <p className="mt-6 max-w-4xl text-2xl leading-tight text-[var(--muted)]">
         {research.deck}
       </p>
+
+      <div className="rule-box mt-10 max-w-4xl p-7">
+        <p className="eyebrow">{research.publicationLabel}</p>
+        <p className="mt-4 text-xl">{research.publicationText}</p>
+        <div className="mt-6 flex flex-wrap gap-5">
+          <a href={externalLinks.doi} className="text-link" rel="noreferrer" target="_blank">
+            {research.readPublication}
+          </a>
+          <a href={externalLinks.doi} className="text-link" rel="noreferrer" target="_blank">
+            {research.citeDoi}
+          </a>
+        </div>
+      </div>
 
       <div className="section mt-16 border-t border-[var(--line)]">
         {research.rows.map((row) => (
