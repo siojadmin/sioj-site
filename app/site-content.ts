@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export type Locale = "pt" | "en";
-export type PageKey = "home" | "method" | "labs" | "research" | "contact";
+export type PageKey = "home" | "method" | "labs" | "research" | "repository" | "contact";
 
 export const siteUrl = "https://sioj.org";
 
@@ -29,6 +29,7 @@ export const localized = {
       { key: "method", href: "/pt/metodo", label: "Método" },
       { key: "labs", href: "/pt/labs", label: "Labs" },
       { key: "research", href: "/pt/pesquisa", label: "Pesquisa" },
+      { key: "repository", href: "/pt/fundacional", label: "Fundacional" },
       { key: "contact", href: "/pt/contato", label: "Contato" },
     ],
     footerLine: "Pesquisa • Governança • Simbiose Humano-IA",
@@ -215,6 +216,7 @@ export const localized = {
       { key: "method", href: "/en/method", label: "Method" },
       { key: "labs", href: "/en/labs", label: "Labs" },
       { key: "research", href: "/en/research", label: "Research" },
+      { key: "repository", href: "/en/foundational", label: "Foundational" },
       { key: "contact", href: "/en/contact", label: "Contact" },
     ],
     footerLine: "Research • Governance • Human-AI Symbiosis",
@@ -396,6 +398,7 @@ export function localizedPath(locale: Locale, page: PageKey) {
       method: "/pt/metodo",
       labs: "/pt/labs",
       research: "/pt/pesquisa",
+      repository: "/pt/fundacional",
       contact: "/pt/contato",
     }[page];
   }
@@ -405,6 +408,7 @@ export function localizedPath(locale: Locale, page: PageKey) {
     method: "/en/method",
     labs: "/en/labs",
     research: "/en/research",
+    repository: "/en/foundational",
     contact: "/en/contact",
   }[page];
 }
@@ -424,6 +428,10 @@ export function pageMetadata(locale: Locale, page: PageKey): Metadata {
           ? content.labs.title
         : page === "research"
           ? content.research.title
+        : page === "repository"
+          ? locale === "pt"
+            ? "Repositório Fundacional"
+            : "Foundational Repository"
           : `${content.contact.title} — Anderson Siqueira Lourenço`;
   const description =
     page === "home"
@@ -434,6 +442,10 @@ export function pageMetadata(locale: Locale, page: PageKey): Metadata {
           ? content.labs.description
         : page === "research"
           ? content.research.description
+        : page === "repository"
+          ? locale === "pt"
+            ? "Acervo fundacional público do SIOJ com documentos assinados, downloads e hashes SHA-256 e SHA-512."
+            : "SIOJ public foundational archive with signed documents, downloads, and SHA-256 and SHA-512 hashes."
           : content.contact.description;
   const path = localizedPath(locale, page);
 
