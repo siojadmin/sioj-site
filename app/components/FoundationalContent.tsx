@@ -1,7 +1,8 @@
 import { createHash } from "node:crypto";
-import { readFileSync } from "node:fs";
+import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { foundationalDocuments } from "../foundational-documents";
+import type { FoundationalDocument } from "../foundational-documents";
 import type { Locale } from "../site-content";
 
 const verificationCode = "5AAC-6A69-48EF-F315";
@@ -14,12 +15,51 @@ function hashesFor(href: string) {
   };
 }
 
+function publishedHrefs(directory: string, relative = ""): string[] {
+  return readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
+    const childRelative = relative ? `${relative}/${entry.name}` : entry.name;
+    const childPath = join(directory, entry.name);
+
+    if (entry.isDirectory()) {
+      return publishedHrefs(childPath, childRelative);
+    }
+
+    return /\.(pdf|p7s)$/i.test(entry.name)
+      ? [`/docs/fundacional/${childRelative}`]
+      : [];
+  });
+}
+
+function fallbackDocument(href: string): FoundationalDocument {
+  const filename = href.split("/").at(-1) ?? href;
+  const title = filename
+    .replace(/-Manifesto\.pdf$/i, "")
+    .replace(/\.(pdf|p7s)$/i, "")
+    .replaceAll("_", " ");
+
+  return {
+    filename,
+    href,
+    titlePt: title,
+    titleEn: title,
+    language: href.includes("/en/") ? "en" : "pt",
+    format: href.toLowerCase().endsWith(".p7s") ? "P7S" : "PDF",
+  };
+}
+
 export function FoundationalContent({ locale }: { locale: Locale }) {
   const isPt = locale === "pt";
-  const documents = foundationalDocuments.map((document) => ({
-    ...document,
-    ...hashesFor(document.href),
-  }));
+  const knownDocuments = new Map(
+    foundationalDocuments.map((document) => [document.href, document]),
+  );
+  const archiveRoot = join(process.cwd(), "public", "docs", "fundacional");
+  const documents = publishedHrefs(archiveRoot)
+    .sort((left, right) => left.localeCompare(right))
+    .map((href) => knownDocuments.get(href) ?? fallbackDocument(href))
+    .map((document) => ({
+      ...document,
+      ...hashesFor(document.href),
+    }));
   const featured = documents.filter((document) => document.featured);
 
   return (

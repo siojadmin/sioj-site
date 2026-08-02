@@ -35,3 +35,19 @@ Use these settings:
 - Confirm domain is configured as `sioj.org`.
 - Confirm no internal documents are copied into `site/public`.
 - Run `npm run build` before publishing.
+
+## Curated archive synchronization
+
+The public foundational archive is synchronized from the signed source directory. The script intentionally does not scan draft Markdown files or unsigned PDFs.
+
+Validate and build without publishing:
+
+```powershell
+.\scripts\Publish-SiojArchive.ps1
+```
+
+Synchronize, validate, commit, and push document changes to `main`:
+
+```powershell
+.\scripts\Publish-SiojArchive.ps1 -Publish
+```
