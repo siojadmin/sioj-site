@@ -10,6 +10,9 @@ export const externalLinks = {
   github: "https://github.com/siojadmin/sioj-site",
   zenodo: "https://zenodo.org/records/21569973",
   doi: "https://doi.org/10.5281/zenodo.21569973",
+  researchSquare: "https://www.researchsquare.com/article/rs-10566077/v1",
+  researchSquareDoi: "https://doi.org/10.21203/rs.3.rs-10566077/v1",
+  researchPdf: "/docs/research/The_Epistemology_of_SSLOO_Research_Square_Preprint_v1.pdf",
   patreon:
     "https://www.patreon.com/siojintegratesystemoflegalorganization/posts/sioj-labs-paper-162826221?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
 };
@@ -33,7 +36,7 @@ export const localized = {
       { key: "contact", href: "/pt/contato", label: "Contato" },
     ],
     footerLine: "Pesquisa • Governança • Simbiose Humano-IA",
-    release: ["Versão pública", "v1.0", "Julho de 2026"],
+    release: ["Versão pública", "v1.0", "Atualizada em agosto de 2026"],
     founder: ["Dr. Anderson Siqueira Lourenço", "Fundador e líder de pesquisa", "Advogado — OAB/DF 39.544"],
     contactLink: "Contato",
     home: {
@@ -44,7 +47,7 @@ export const localized = {
       intro:
         "Arquitetura de governança cognitiva para colaboração entre humanos e inteligências artificiais em contextos jurídicos complexos.",
       flowTitle: "Comece por aqui",
-      flow: ["Problema", "Método", "SIOJ Labs", "Working Paper 01", "Patreon", "GitHub", "ORCID", "Contato"],
+      flow: ["Problema", "Método", "SIOJ Labs", "Pesquisa publicada", "Patreon", "GitHub", "ORCID", "Contato"],
       sections: [
         {
           eyebrow: "O que é o SIOJ",
@@ -139,7 +142,7 @@ export const localized = {
         "Não é um chatbot isolado, uma fábrica automática de peças ou uma substituição da decisão profissional. É uma arquitetura de governança para colaboração Humano-IA em ambientes de alta complexidade.",
       statusLabel: "Fase atual",
       statusText:
-        "Presença institucional pública ativa. Working Paper 01 publicado no Zenodo com DOI 10.5281/zenodo.21569973.",
+        "Presença institucional pública ativa, com o Working Paper 01 no Zenodo e o novo preprint sobre SSLOO publicado no Research Square.",
       methodLink: "Conhecer o método",
       researchLink: "Ver a pesquisa",
       contactLink: "Conversar sobre o SIOJ",
@@ -161,11 +164,24 @@ export const localized = {
       ],
     },
     research: {
-      title: "Algorithmic Stress and the Collapse of Cognitive Load",
+      title: "Pesquisa publicada",
       eyebrow: "Pesquisa",
-      deck: "Fundamentos metodológicos para a Periodização Informacional na simbiose Humano-IA.",
+      deck: "Da periodização informacional à supercompensação sociotécnica em práticas jurídicas de alta complexidade.",
       description:
-        "Working Paper 01 do SIOJ, publicado no Zenodo: estresse algorítmico, carga cognitiva e Periodização Informacional Humano-IA.",
+        "Produção científica pública do SIOJ sobre estresse algorítmico, carga cognitiva, periodização e supercompensação sociotécnica na simbiose Humano-IA.",
+      newPublication: {
+        label: "Novo preprint",
+        title: "The Epistemology of SSLOO: Workload Periodization, Symbiotic Pauses, and Socio-Technical Supercompensation in High-Complexity Legal Practices",
+        publicationText: "Research Square • Research Article • Versão 1 • 11 de agosto de 2026 • CC BY 4.0",
+        status: "Preprint público, associado ao fluxo editorial de AI & SOCIETY. O texto ainda não passou por revisão por pares.",
+        summary: "O artigo formaliza o SSLOO como arquitetura de governança de carga de trabalho: alterna ciclos de demanda, pausas simbióticas, recuperação ativa e memória auditável para preservar julgamento humano, continuidade e desempenho em práticas jurídicas complexas.",
+        keywords: "Governança cognitiva; periodização; simbiose Humano-IA; carga cognitiva; supercompensação sociotécnica; recuperação ativa.",
+        openPublication: "Abrir no Research Square",
+        downloadPdf: "Baixar o PDF",
+        citeDoi: "DOI 10.21203/rs.3.rs-10566077/v1",
+        hash: "SHA-256 65FB84D9C127F077B240AB550049035451CEA577C2F43D9435B8338CBBE518B4",
+      },
+      workingPaperTitle: "Working Paper nº 01 — Algorithmic Stress and the Collapse of Cognitive Load",
       publicationLabel: "Publicação aberta",
       publicationText: "Preprint • Versão 1.0 • 28 de julho de 2026 • CC BY 4.0",
       readPublication: "Abrir no Zenodo",
@@ -220,7 +236,7 @@ export const localized = {
       { key: "contact", href: "/en/contact", label: "Contact" },
     ],
     footerLine: "Research • Governance • Human-AI Symbiosis",
-    release: ["Public Release", "v1.0", "July 2026"],
+    release: ["Public Release", "v1.0", "Updated August 2026"],
     founder: ["Dr. Anderson Siqueira Lourenço", "Founder and Research Lead", "Attorney at Law — OAB/DF 39.544"],
     contactLink: "Contact",
     home: {
@@ -231,7 +247,7 @@ export const localized = {
       intro:
         "A cognitive governance architecture for collaboration between humans and artificial intelligence systems in complex legal contexts.",
       flowTitle: "Start here",
-      flow: ["Problem", "Method", "SIOJ Labs", "Working Paper 01", "Patreon", "GitHub", "ORCID", "Contact"],
+      flow: ["Problem", "Method", "SIOJ Labs", "Published research", "Patreon", "GitHub", "ORCID", "Contact"],
       sections: [
         {
           eyebrow: "What SIOJ is",
@@ -326,7 +342,7 @@ export const localized = {
         "It is not an isolated chatbot, an automatic legal-document factory or a replacement for professional judgment. It is a governance architecture for Human-AI collaboration in high-complexity environments.",
       statusLabel: "Current phase",
       statusText:
-        "Active public institutional presence. Working Paper No. 01 published on Zenodo with DOI 10.5281/zenodo.21569973.",
+        "Active public institutional presence, with Working Paper No. 01 on Zenodo and the new SSLOO preprint published on Research Square.",
       methodLink: "Explore the method",
       researchLink: "View the research",
       contactLink: "Discuss SIOJ",
@@ -348,11 +364,24 @@ export const localized = {
       ],
     },
     research: {
-      title: "Algorithmic Stress and the Collapse of Cognitive Load",
+      title: "Published research",
       eyebrow: "Research",
-      deck: "Methodological Foundations for Informational Periodization in Human-AI Symbiosis.",
+      deck: "From informational periodization to socio-technical supercompensation in high-complexity legal practice.",
       description:
-        "SIOJ Working Paper No. 01, published on Zenodo: algorithmic stress, cognitive load and Human-AI Informational Periodization.",
+        "SIOJ public research on algorithmic stress, cognitive load, periodization and socio-technical supercompensation in Human-AI symbiosis.",
+      newPublication: {
+        label: "New preprint",
+        title: "The Epistemology of SSLOO: Workload Periodization, Symbiotic Pauses, and Socio-Technical Supercompensation in High-Complexity Legal Practices",
+        publicationText: "Research Square • Research Article • Version 1 • August 11, 2026 • CC BY 4.0",
+        status: "Public preprint associated with the AI & SOCIETY editorial workflow. The manuscript has not yet undergone peer review.",
+        summary: "The article formalizes SSLOO as a workload-governance architecture: it alternates demand cycles, symbiotic pauses, active recovery and audit-ready memory to preserve human judgment, continuity and performance in complex legal practice.",
+        keywords: "Cognitive governance; periodization; Human-AI symbiosis; cognitive load; socio-technical supercompensation; active recovery.",
+        openPublication: "Open on Research Square",
+        downloadPdf: "Download PDF",
+        citeDoi: "DOI 10.21203/rs.3.rs-10566077/v1",
+        hash: "SHA-256 65FB84D9C127F077B240AB550049035451CEA577C2F43D9435B8338CBBE518B4",
+      },
+      workingPaperTitle: "Working Paper No. 01 — Algorithmic Stress and the Collapse of Cognitive Load",
       publicationLabel: "Open publication",
       publicationText: "Preprint • Version 1.0 • July 28, 2026 • CC BY 4.0",
       readPublication: "Open on Zenodo",
@@ -468,11 +497,20 @@ export function pageMetadata(locale: Locale, page: PageKey): Metadata {
       locale: locale === "pt" ? "pt_BR" : "en_US",
       alternateLocale: locale === "pt" ? ["en_US"] : ["pt_BR"],
       type: page === "contact" ? "profile" : page === "home" ? "website" : "article",
+      images: [
+        {
+          url: "/og-sioj-research.png",
+          width: 1536,
+          height: 1024,
+          alt: "SIOJ — Research, governance and Human-AI symbiosis",
+        },
+      ],
     },
     twitter: {
-      card: "summary",
+      card: "summary_large_image",
       title,
       description,
+      images: ["/og-sioj-research.png"],
     },
   };
 }

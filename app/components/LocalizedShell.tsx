@@ -53,6 +53,8 @@ export function LocalizedShell({ children, locale, page }: Props) {
           "Algorithmic stress",
           "Cognitive load",
           "Human-AI Informational Periodization",
+          "Socio-technical supercompensation",
+          "SSLOO",
         ],
       },
       {
@@ -86,6 +88,30 @@ export function LocalizedShell({ children, locale, page }: Props) {
         version: "1.0",
         identifier: "https://doi.org/10.5281/zenodo.21569973",
         url: externalLinks.zenodo,
+        license: "https://creativecommons.org/licenses/by/4.0/",
+        inLanguage: "en",
+        isPartOf: {
+          "@id": `${siteUrl}/#organization`,
+        },
+      },
+      {
+        "@type": "ScholarlyArticle",
+        "@id": `${externalLinks.researchSquareDoi}#article`,
+        name: "The Epistemology of SSLOO",
+        headline:
+          "The Epistemology of SSLOO: Workload Periodization, Symbiotic Pauses, and Socio-Technical Supercompensation in High-Complexity Legal Practices",
+        author: {
+          "@id": `${siteUrl}/#anderson-siqueira-lourenco`,
+        },
+        publisher: {
+          "@type": "Organization",
+          name: "Research Square",
+          url: "https://www.researchsquare.com",
+        },
+        datePublished: "2026-08-11",
+        version: "1",
+        identifier: "https://doi.org/10.21203/rs.3.rs-10566077/v1",
+        url: externalLinks.researchSquare,
         license: "https://creativecommons.org/licenses/by/4.0/",
         inLanguage: "en",
         isPartOf: {
@@ -168,6 +194,9 @@ export function LocalizedShell({ children, locale, page }: Props) {
               </a>
               <a href={externalLinks.doi} className="text-link" rel="noreferrer" target="_blank">
                 Zenodo
+              </a>
+              <a href={externalLinks.researchSquareDoi} className="text-link" rel="noreferrer" target="_blank">
+                Research Square
               </a>
               <Link href={localizedPath(locale, "contact")} className="text-link">
                 {content.contactLink}

@@ -7,4 +7,6 @@ dev-server.*.log
 .env
 .env.local
 *.pdf
+!public/docs/research/*.pdf
 tmp/
+.tmp_pdf_review/

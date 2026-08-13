@@ -31,6 +31,9 @@
     "research_pt": "https://sioj.org/pt/pesquisa",
     "research_en": "https://sioj.org/en/research",
     "working_paper_01": "https://doi.org/10.5281/zenodo.21569973",
+    "research_article_ssloo": "https://doi.org/10.21203/rs.3.rs-10566077/v1",
+    "research_square_record": "https://www.researchsquare.com/article/rs-10566077/v1",
+    "research_article_pdf": "https://sioj.org/docs/research/The_Epistemology_of_SSLOO_Research_Square_Preprint_v1.pdf",
     "zenodo_record": "https://zenodo.org/records/21569973",
     "contact_pt": "https://sioj.org/pt/contato",
     "contact_en": "https://sioj.org/en/contact",
@@ -86,9 +89,31 @@
     "cognitive load",
     "Periodização Informacional Humano-IA",
     "Human-AI Informational Periodization",
+    "SSLOO",
+    "socio-technical supercompensation",
+    "workload periodization",
+    "symbiotic pauses",
+    "active recovery",
     "AI chunks",
     "research chunks",
     "public metadata"
+  ],
+  "research_articles": [
+    {
+      "title": "The Epistemology of SSLOO: Workload Periodization, Symbiotic Pauses, and Socio-Technical Supercompensation in High-Complexity Legal Practices",
+      "doi": "10.21203/rs.3.rs-10566077/v1",
+      "doi_url": "https://doi.org/10.21203/rs.3.rs-10566077/v1",
+      "research_square_record": "https://www.researchsquare.com/article/rs-10566077/v1",
+      "resource_type": "Research Article preprint",
+      "version": "1",
+      "publication_date": "2026-08-11",
+      "license": "CC BY 4.0",
+      "peer_review_status": "not yet peer reviewed",
+      "author": "Anderson Siqueira Lourenço",
+      "language": "en",
+      "sha256": "65FB84D9C127F077B240AB550049035451CEA577C2F43D9435B8338CBBE518B4",
+      "public_pdf": "https://sioj.org/docs/research/The_Epistemology_of_SSLOO_Research_Square_Preprint_v1.pdf"
+    }
   ],
   "working_papers": [
     {

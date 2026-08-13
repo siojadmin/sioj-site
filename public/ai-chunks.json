@@ -78,6 +78,22 @@
       "url": "https://sioj.org/pt/pesquisa",
       "text": "O Working Paper 01 do SIOJ, Algorithmic Stress and the Collapse of Cognitive Load: Methodological Foundations for Informational Periodization in Human-AI Symbiosis, foi publicado no Zenodo em 28 de julho de 2026, versão 1.0, sob licença CC BY 4.0. DOI: 10.5281/zenodo.21569973.",
       "keywords": ["Working Paper 01", "Estresse Algorítmico", "Carga Cognitiva", "Periodização Informacional Humano-IA", "10.5281/zenodo.21569973", "Zenodo"]
+    },
+    {
+      "id": "sioj-ssloo-research-en",
+      "language": "en",
+      "title": "The Epistemology of SSLOO",
+      "url": "https://sioj.org/en/research",
+      "text": "The Epistemology of SSLOO: Workload Periodization, Symbiotic Pauses, and Socio-Technical Supercompensation in High-Complexity Legal Practices is a public Research Square preprint by Anderson Siqueira Lourenço. It was posted on August 11, 2026, under CC BY 4.0 and has not yet undergone peer review. DOI: 10.21203/rs.3.rs-10566077/v1.",
+      "keywords": ["SSLOO", "Workload Periodization", "Symbiotic Pauses", "Socio-Technical Supercompensation", "Active Recovery", "10.21203/rs.3.rs-10566077/v1", "Research Square"]
+    },
+    {
+      "id": "sioj-ssloo-research-pt",
+      "language": "pt-BR",
+      "title": "A Epistemologia do SSLOO",
+      "url": "https://sioj.org/pt/pesquisa",
+      "text": "The Epistemology of SSLOO: Workload Periodization, Symbiotic Pauses, and Socio-Technical Supercompensation in High-Complexity Legal Practices é um preprint público de Anderson Siqueira Lourenço no Research Square. Foi publicado em 11 de agosto de 2026, sob CC BY 4.0, e ainda não passou por revisão por pares. DOI: 10.21203/rs.3.rs-10566077/v1.",
+      "keywords": ["SSLOO", "periodização de carga", "pausas simbióticas", "supercompensação sociotécnica", "recuperação ativa", "10.21203/rs.3.rs-10566077/v1", "Research Square"]
     }
   ]
 }

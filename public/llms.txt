@@ -15,9 +15,16 @@ Institutional contact: anderson@sioj.org.
 Public research:
 - Portuguese: https://sioj.org/pt/pesquisa
 - English: https://sioj.org/en/research
+- Research Article: The Epistemology of SSLOO: Workload Periodization, Symbiotic Pauses, and Socio-Technical Supercompensation in High-Complexity Legal Practices
+- Research Square DOI: https://doi.org/10.21203/rs.3.rs-10566077/v1
+- Research Square record: https://www.researchsquare.com/article/rs-10566077/v1
+- Publication: Preprint, version 1, posted August 11, 2026, CC BY 4.0; not yet peer reviewed
+- Public PDF: https://sioj.org/docs/research/The_Epistemology_of_SSLOO_Research_Square_Preprint_v1.pdf
 - Working Paper No. 01: Algorithmic Stress and the Collapse of Cognitive Load
 - Subtitle: Methodological Foundations for Informational Periodization in Human-AI Symbiosis
 - DOI: https://doi.org/10.5281/zenodo.21569973
+- Research Square: https://www.researchsquare.com/article/rs-10566077/v1
+- Research Square DOI: https://doi.org/10.21203/rs.3.rs-10566077/v1
 - Zenodo record: https://zenodo.org/records/21569973
 - Publication: Preprint, version 1.0, published July 28, 2026, CC BY 4.0
 - Periodização Informacional Humano-IA / Human-AI Informational Periodization
@@ -67,6 +74,11 @@ Core topics:
 - cognitive load
 - Periodização Informacional Humano-IA
 - Human-AI Informational Periodization
+- SSLOO
+- socio-technical supercompensation
+- workload periodization
+- symbiotic pauses
+- active recovery
 - AI chunks
 - research chunks
 - public metadata

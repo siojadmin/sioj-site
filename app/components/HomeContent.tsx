@@ -6,7 +6,7 @@ const flowTargets = {
     { href: "#problema" },
     { href: "/pt/metodo" },
     { href: "/pt/labs" },
-    { href: externalLinks.doi, external: true },
+    { href: "/pt/pesquisa" },
     { href: externalLinks.patreon, external: true },
     { href: externalLinks.github, external: true },
     { href: externalLinks.orcid, external: true },
@@ -16,7 +16,7 @@ const flowTargets = {
     { href: "#problem" },
     { href: "/en/method" },
     { href: "/en/labs" },
-    { href: externalLinks.doi, external: true },
+    { href: "/en/research" },
     { href: externalLinks.patreon, external: true },
     { href: externalLinks.github, external: true },
     { href: externalLinks.orcid, external: true },
@@ -97,15 +97,18 @@ export function HomeContent({ locale }: { locale: Locale }) {
         <div className="container grid gap-10 md:grid-cols-[0.8fr_1.2fr]">
           <p className="eyebrow">Research</p>
           <div>
-            <h2 className="text-3xl font-semibold">{home.researchTitle}</h2>
-            <p className="mt-4 text-2xl leading-tight text-[var(--muted)]">{home.researchDeck}</p>
-            <p className="body-copy mt-5 text-xl">{home.researchText}</p>
+            <p className="eyebrow">{content.research.newPublication.label}</p>
+            <h2 className="mt-3 text-3xl font-semibold">{content.research.newPublication.title}</h2>
+            <p className="mt-4 text-lg leading-relaxed text-[var(--muted)]">
+              {content.research.newPublication.publicationText}
+            </p>
+            <p className="body-copy mt-5 text-xl">{content.research.newPublication.summary}</p>
             <div className="mt-7 flex flex-wrap gap-5">
-              <a href={externalLinks.doi} className="text-link" rel="noreferrer" target="_blank">
-                {home.readPublication}
+              <a href={externalLinks.researchSquareDoi} className="text-link" rel="noreferrer" target="_blank">
+                {content.research.newPublication.openPublication}
               </a>
-              <a href={externalLinks.patreon} className="text-link" rel="noreferrer" target="_blank">
-                {home.readPatreon}
+              <a href={externalLinks.researchPdf} className="text-link" download>
+                {content.research.newPublication.downloadPdf}
               </a>
               <Link href={localizedPath(locale, "research")} className="text-link">
                 {home.seeResearch}
